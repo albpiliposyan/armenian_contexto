@@ -1,0 +1,5 @@
+deep-translator
+fasttext-wheel
+numpy
+spacy
+tqdm

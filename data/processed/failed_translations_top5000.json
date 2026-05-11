@@ -1,0 +1,1466 @@
+[
+  {
+    "en": "mean",
+    "frequency": -7.9895,
+    "hy_raw": "նշանակում է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "later",
+    "frequency": -8.0134,
+    "hy_raw": "ավելի ուշ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "stop",
+    "frequency": -8.0822,
+    "hy_raw": "կանգ առնել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "able",
+    "frequency": -8.2434,
+    "hy_raw": "կարող է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "possible",
+    "frequency": -8.3143,
+    "hy_raw": "հնարավոր է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "self",
+    "frequency": -8.6797,
+    "hy_raw": "ինքն իրեն",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "higher",
+    "frequency": -8.7529,
+    "hy_raw": "ավելի բարձր",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "likely",
+    "frequency": -8.7721,
+    "hy_raw": "հավանական է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "consider",
+    "frequency": -8.8883,
+    "hy_raw": "հաշվի առնել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "lower",
+    "frequency": -8.9102,
+    "hy_raw": "ավելի ցածր",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "relate",
+    "frequency": -9.0033,
+    "hy_raw": "առնչվում են",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "require",
+    "frequency": -9.1427,
+    "hy_raw": "պահանջում են",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "tonight",
+    "frequency": -9.1616,
+    "hy_raw": "այս գիշեր",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "wanna",
+    "frequency": -9.1616,
+    "hy_raw": "ուզում եմ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "allow",
+    "frequency": -9.097,
+    "hy_raw": "թույլ տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "welcome",
+    "frequency": -9.1905,
+    "hy_raw": "բարի գալուստ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "grand",
+    "frequency": -9.441,
+    "hy_raw": "մեծ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "eventually",
+    "frequency": -9.5101,
+    "hy_raw": "ի վերջո",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "overall",
+    "frequency": -9.5101,
+    "hy_raw": "ընդհանուր առմամբ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "saturday",
+    "frequency": -9.5101,
+    "hy_raw": "շաբաթ օրը",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "location",
+    "frequency": -9.5333,
+    "hy_raw": "գտնվելու վայրը",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "lol",
+    "frequency": -9.5557,
+    "hy_raw": "lol",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "christmas",
+    "frequency": -9.5785,
+    "hy_raw": "սուրբ ծնունդ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "jack",
+    "frequency": -9.5785,
+    "hy_raw": "jack",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "software",
+    "frequency": -9.6243,
+    "hy_raw": "ծրագրային ապահովում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "twice",
+    "frequency": -9.6243,
+    "hy_raw": "երկու անգամ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "prior",
+    "frequency": -9.6473,
+    "hy_raw": "առաջ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "apparently",
+    "frequency": -9.6932,
+    "hy_raw": "ըստ երեւույթին",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "exist",
+    "frequency": -9.6932,
+    "hy_raw": "գոյություն ունենալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "google",
+    "frequency": -9.7397,
+    "hy_raw": "google",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "automatically",
+    "frequency": -9.7866,
+    "hy_raw": "ավտոմատ կերպով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "emergency",
+    "frequency": -9.7866,
+    "hy_raw": "արտակարգ իրավիճակ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "http",
+    "frequency": -9.8082,
+    "hy_raw": "http",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "entirely",
+    "frequency": -9.8321,
+    "hy_raw": "ամբողջությամբ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "possibly",
+    "frequency": -9.8321,
+    "hy_raw": "հնարավոր է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "inc",
+    "frequency": -9.8547,
+    "hy_raw": "inc",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "afternoon",
+    "frequency": -9.8778,
+    "hy_raw": "կեսօրից հետո",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "iii",
+    "frequency": -9.8778,
+    "hy_raw": "iii",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "bay",
+    "frequency": -9.9015,
+    "hy_raw": "bay",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "birthday",
+    "frequency": -9.9015,
+    "hy_raw": "ծննդյան օրը",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "contain",
+    "frequency": -9.9015,
+    "hy_raw": "պարունակում է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "haha",
+    "frequency": -9.9696,
+    "hy_raw": "haha",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "largely",
+    "frequency": -10.0382,
+    "hy_raw": "մեծ մասամբ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "elect",
+    "frequency": -10.0613,
+    "hy_raw": "ընտրել",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "properly",
+    "frequency": -10.1316,
+    "hy_raw": "պատշաճ կերպով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "kinda",
+    "frequency": -10.1545,
+    "hy_raw": "մի տեսակ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "unfortunately",
+    "frequency": -10.1545,
+    "hy_raw": "ցավոք սրտի",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "obtain",
+    "frequency": -10.1779,
+    "hy_raw": "ձեռք բերել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "aside",
+    "frequency": -10.1992,
+    "hy_raw": "մի կողմ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "tend",
+    "frequency": -10.1992,
+    "hy_raw": "հակված են",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "youtube",
+    "frequency": -10.1992,
+    "hy_raw": "youtube",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "somewhat",
+    "frequency": -10.2237,
+    "hy_raw": "որոշ չափով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "primarily",
+    "frequency": -10.246,
+    "hy_raw": "առաջին հերթին",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "ultimately",
+    "frequency": -10.246,
+    "hy_raw": "ի վերջո",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "bbc",
+    "frequency": -10.2688,
+    "hy_raw": "bbc",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "hardly",
+    "frequency": -10.2688,
+    "hy_raw": "հազիվ թե",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "afford",
+    "frequency": -10.2921,
+    "hy_raw": "թույլ տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "del",
+    "frequency": -10.2921,
+    "hy_raw": "del",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "found",
+    "frequency": -10.316,
+    "hy_raw": "հայտնաբերվել է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "matt",
+    "frequency": -10.316,
+    "hy_raw": "matt",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "politician",
+    "frequency": -10.316,
+    "hy_raw": "քաղաքական գործիչ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "worldwide",
+    "frequency": -10.316,
+    "hy_raw": "աշխարհով մեկ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "hopefully",
+    "frequency": -10.3374,
+    "hy_raw": "հուսով եմ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "expose",
+    "frequency": -10.3624,
+    "hy_raw": "բացահայտել",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "effectively",
+    "frequency": -10.3848,
+    "hy_raw": "արդյունավետ կերպով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "initially",
+    "frequency": -10.3848,
+    "hy_raw": "սկզբնական շրջանում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "santa",
+    "frequency": -10.3848,
+    "hy_raw": "ձմեռ պապ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "employ",
+    "frequency": -10.4077,
+    "hy_raw": "աշխատանքի տեղավորել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "increasingly",
+    "frequency": -10.4077,
+    "hy_raw": "գնալով ավելի",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "rapid",
+    "frequency": -10.4077,
+    "hy_raw": "արագ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "regardless",
+    "frequency": -10.4551,
+    "hy_raw": "անկախ նրանից",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "acquire",
+    "frequency": -10.4762,
+    "hy_raw": "ձեռք բերել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "recommend",
+    "frequency": -10.4762,
+    "hy_raw": "խորհուրդ տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "essentially",
+    "frequency": -10.5013,
+    "hy_raw": "ըստ էության",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "forth",
+    "frequency": -10.5013,
+    "hy_raw": "առաջ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "nfl",
+    "frequency": -10.5013,
+    "hy_raw": "nfl",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "exposure",
+    "frequency": -10.5234,
+    "hy_raw": "ազդեցության ենթարկում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "microsoft",
+    "frequency": -10.5234,
+    "hy_raw": "microsoft",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "retirement",
+    "frequency": -10.5234,
+    "hy_raw": "թոշակի անցնելը",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "luke",
+    "frequency": -10.569,
+    "hy_raw": "luke",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "buddy",
+    "frequency": -10.5926,
+    "hy_raw": "ընկեր",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "commonly",
+    "frequency": -10.5926,
+    "hy_raw": "սովորաբար",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "database",
+    "frequency": -10.6375,
+    "hy_raw": "տվյալների բազա",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "der",
+    "frequency": -10.6375,
+    "hy_raw": "der",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "occasionally",
+    "frequency": -10.6375,
+    "hy_raw": "երբեմն-երբեմն",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "jason",
+    "frequency": -10.5926,
+    "hy_raw": "jason",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "morgan",
+    "frequency": -10.6168,
+    "hy_raw": "morgan",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "retire",
+    "frequency": -10.6168,
+    "hy_raw": "թոշակի անցնել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "feedback",
+    "frequency": -10.6628,
+    "hy_raw": "հետադարձ կապ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "ceo",
+    "frequency": -10.7064,
+    "hy_raw": "գործադիր տնօրեն",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "fiction",
+    "frequency": -10.7064,
+    "hy_raw": "գեղարվեստական ​​գրականություն",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "pet",
+    "frequency": -10.7064,
+    "hy_raw": "ընտանի կենդանի",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "lifetime",
+    "frequency": -10.6844,
+    "hy_raw": "կյանքի ընթացքում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "ross",
+    "frequency": -10.6844,
+    "hy_raw": "ross",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "downtown",
+    "frequency": -10.7521,
+    "hy_raw": "քաղաքի կենտրոնում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "dvd",
+    "frequency": -10.7758,
+    "hy_raw": "dvd",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "scary",
+    "frequency": -10.7758,
+    "hy_raw": "սարսափելի",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "unlikely",
+    "frequency": -10.7758,
+    "hy_raw": "քիչ հավանական",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "demonstrate",
+    "frequency": -10.8,
+    "hy_raw": "ցույց տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "equity",
+    "frequency": -10.8198,
+    "hy_raw": "սեփական կապիտալը",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "iphone",
+    "frequency": -10.8198,
+    "hy_raw": "iphone",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "succeed",
+    "frequency": -10.8451,
+    "hy_raw": "հաջողության հասնել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "est",
+    "frequency": -10.8658,
+    "hy_raw": "est",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "mama",
+    "frequency": -10.8658,
+    "hy_raw": "մայրիկ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "android",
+    "frequency": -10.8451,
+    "hy_raw": "android",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "seattle",
+    "frequency": -10.8451,
+    "hy_raw": "seattle",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "nba",
+    "frequency": -10.8658,
+    "hy_raw": "nba",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "wildlife",
+    "frequency": -10.8658,
+    "hy_raw": "վայրի բնություն",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "invest",
+    "frequency": -10.8923,
+    "hy_raw": "ներդրումներ կատարել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "skip",
+    "frequency": -10.9363,
+    "hy_raw": "բաց թողնել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "tribute",
+    "frequency": -10.9363,
+    "hy_raw": "հարգանքի տուրք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "copyright",
+    "frequency": -10.959,
+    "hy_raw": "հեղինակային իրավունք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "safely",
+    "frequency": -10.959,
+    "hy_raw": "ապահով կերպով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "underlie",
+    "frequency": -10.959,
+    "hy_raw": "հիմքում ընկած",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "beef",
+    "frequency": -10.9823,
+    "hy_raw": "տավարի միս",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "recommendation",
+    "frequency": -10.9823,
+    "hy_raw": "առաջարկություն",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "xbox",
+    "frequency": -11.0061,
+    "hy_raw": "xbox",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "differently",
+    "frequency": -11.0305,
+    "hy_raw": "այլ կերպ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "legally",
+    "frequency": -11.0305,
+    "hy_raw": "օրինական կերպով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "pat",
+    "frequency": -11.0305,
+    "hy_raw": "pat",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "que",
+    "frequency": -11.0305,
+    "hy_raw": "que",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "advise",
+    "frequency": -11.0555,
+    "hy_raw": "խորհուրդ տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "handsome",
+    "frequency": -11.0555,
+    "hy_raw": "գեղեցիկ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "mainstream",
+    "frequency": -11.0555,
+    "hy_raw": "mainstream",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "northwest",
+    "frequency": -11.0555,
+    "hy_raw": "հյուսիս-արևմուտք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "campbell",
+    "frequency": -11.0747,
+    "hy_raw": "campbell",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "cattle",
+    "frequency": -11.0747,
+    "hy_raw": "խոշոր եղջերավոր անասուններ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "mps",
+    "frequency": -11.1008,
+    "hy_raw": "mps",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "precise",
+    "frequency": -11.1008,
+    "hy_raw": "ճշգրիտ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "retain",
+    "frequency": -11.1008,
+    "hy_raw": "պահպանել",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "stole",
+    "frequency": -11.1008,
+    "hy_raw": "գողացել է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "playoff",
+    "frequency": -11.0747,
+    "hy_raw": "փլեյ-օֆֆ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "fbi",
+    "frequency": -11.1008,
+    "hy_raw": "fbi",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "diabete",
+    "frequency": -11.1209,
+    "hy_raw": "շաքարային դիաբետ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "dismiss",
+    "frequency": -11.1209,
+    "hy_raw": "աշխատանքից ազատել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "excessive",
+    "frequency": -11.1209,
+    "hy_raw": "չափից դուրս",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "sony",
+    "frequency": -11.1414,
+    "hy_raw": "sony",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "sue",
+    "frequency": -11.1414,
+    "hy_raw": "դատի տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "jake",
+    "frequency": -11.1693,
+    "hy_raw": "jake",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "prosecution",
+    "frequency": -11.1693,
+    "hy_raw": "քրեական հետապնդում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "charlotte",
+    "frequency": -11.1414,
+    "hy_raw": "charlotte",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "jose",
+    "frequency": -11.1414,
+    "hy_raw": "jose",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "wtf",
+    "frequency": -11.1693,
+    "hy_raw": "wtf",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "venue",
+    "frequency": -11.1908,
+    "hy_raw": "անցկացման վայրը",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "apologize",
+    "frequency": -11.2128,
+    "hy_raw": "ներողություն խնդրել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "severely",
+    "frequency": -11.2128,
+    "hy_raw": "խիստ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "broader",
+    "frequency": -11.2353,
+    "hy_raw": "ավելի լայն",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "guilt",
+    "frequency": -11.2353,
+    "hy_raw": "մեղքի զգացում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "hawaii",
+    "frequency": -11.2353,
+    "hy_raw": "հավայան կղզիներ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "linux",
+    "frequency": -11.2353,
+    "hy_raw": "linux",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "quietly",
+    "frequency": -11.2353,
+    "hy_raw": "հանգիստ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "seize",
+    "frequency": -11.2353,
+    "hy_raw": "գրավել",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "sunshine",
+    "frequency": -11.2353,
+    "hy_raw": "արևի շող",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "zoo",
+    "frequency": -11.2353,
+    "hy_raw": "կենդանաբանական այգին",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "cia",
+    "frequency": -11.2583,
+    "hy_raw": "cia",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "flip",
+    "frequency": -11.2583,
+    "hy_raw": "մատով խփել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "legislature",
+    "frequency": -11.2583,
+    "hy_raw": "օրենսդիր մարմին",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "nowadays",
+    "frequency": -11.2583,
+    "hy_raw": "մեր օրերում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "separately",
+    "frequency": -11.2583,
+    "hy_raw": "առանձին-առանձին",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "anytime",
+    "frequency": -11.2818,
+    "hy_raw": "ցանկացած ժամանակ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "southeast",
+    "frequency": -11.2818,
+    "hy_raw": "հարավ-արևելք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "curriculum",
+    "frequency": -11.3059,
+    "hy_raw": "ուսումնական ծրագիր",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "und",
+    "frequency": -11.3059,
+    "hy_raw": "und",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "orleans",
+    "frequency": -11.3306,
+    "hy_raw": "orleans",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "reportedly",
+    "frequency": -11.3306,
+    "hy_raw": "հաղորդվում է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "rev",
+    "frequency": -11.3306,
+    "hy_raw": "rev",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "sur",
+    "frequency": -11.3306,
+    "hy_raw": "sur",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "locally",
+    "frequency": -11.3559,
+    "hy_raw": "տեղական մակարդակով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "sexually",
+    "frequency": -11.3559,
+    "hy_raw": "սեռական ճանապարհով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "com",
+    "frequency": -11.3732,
+    "hy_raw": "com",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "marc",
+    "frequency": -11.3732,
+    "hy_raw": "marc",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "meantime",
+    "frequency": -11.3732,
+    "hy_raw": "միևնույն ժամանակ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "netflix",
+    "frequency": -11.3732,
+    "hy_raw": "netflix",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "ace",
+    "frequency": -11.3996,
+    "hy_raw": "ace",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "btw",
+    "frequency": -11.3996,
+    "hy_raw": "btw",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "incorrect",
+    "frequency": -11.3996,
+    "hy_raw": "սխալ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "lighter",
+    "frequency": -11.3996,
+    "hy_raw": "ավելի թեթեւ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "someday",
+    "frequency": -11.3996,
+    "hy_raw": "մի օր",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "thumb",
+    "frequency": -11.3996,
+    "hy_raw": "բութ մատը",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "aka",
+    "frequency": -11.4176,
+    "hy_raw": "aka",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "java",
+    "frequency": -11.4176,
+    "hy_raw": "java",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "pal",
+    "frequency": -11.4176,
+    "hy_raw": "ընկեր",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "richmond",
+    "frequency": -11.4176,
+    "hy_raw": "richmond",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "todd",
+    "frequency": -11.4176,
+    "hy_raw": "todd",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "accurately",
+    "frequency": -11.4641,
+    "hy_raw": "ճշգրիտ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "dot",
+    "frequency": -11.4641,
+    "hy_raw": "կետ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "duncan",
+    "frequency": -11.4641,
+    "hy_raw": "duncan",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "firmly",
+    "frequency": -11.4641,
+    "hy_raw": "ամուր",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "homework",
+    "frequency": -11.4641,
+    "hy_raw": "տնային աշխատանք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "imply",
+    "frequency": -11.4641,
+    "hy_raw": "ենթադրում են",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "elevate",
+    "frequency": -11.4453,
+    "hy_raw": "բարձրացնել",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "gps",
+    "frequency": -11.4453,
+    "hy_raw": "gps",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "halfway",
+    "frequency": -11.4453,
+    "hy_raw": "կես ճանապարհին",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "isis",
+    "frequency": -11.4453,
+    "hy_raw": "isis",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "resign",
+    "frequency": -11.4453,
+    "hy_raw": "հրաժարական տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "southwest",
+    "frequency": -11.4641,
+    "hy_raw": "հարավ-արևմուտք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "borrow",
+    "frequency": -11.4931,
+    "hy_raw": "պարտք վերցնել",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "frankly",
+    "frequency": -11.5129,
+    "hy_raw": "անկեղծ ասած",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "grande",
+    "frequency": -11.5129,
+    "hy_raw": "մեծ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "ibid",
+    "frequency": -11.5129,
+    "hy_raw": "նույն տեղում",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "ipad",
+    "frequency": -11.5129,
+    "hy_raw": "ipad",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "ebay",
+    "frequency": -11.4931,
+    "hy_raw": "ebay",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "feat",
+    "frequency": -11.4931,
+    "hy_raw": "feat",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "mistaken",
+    "frequency": -11.4931,
+    "hy_raw": "սխալվել է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "posses",
+    "frequency": -11.4931,
+    "hy_raw": "տիրապետում է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "samsung",
+    "frequency": -11.4931,
+    "hy_raw": "samsung",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "span",
+    "frequency": -11.4931,
+    "hy_raw": "span",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "nhl",
+    "frequency": -11.5129,
+    "hy_raw": "nhl",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "northeast",
+    "frequency": -11.5129,
+    "hy_raw": "հյուսիս-արևելք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "privately",
+    "frequency": -11.5129,
+    "hy_raw": "մասնավոր կերպով",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "simpson",
+    "frequency": -11.5129,
+    "hy_raw": "simpson",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "absent",
+    "frequency": -11.5362,
+    "hy_raw": "բացակայում է",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "palmer",
+    "frequency": -11.5362,
+    "hy_raw": "palmer",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "tan",
+    "frequency": -11.5362,
+    "hy_raw": "tan",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "whatsoever",
+    "frequency": -11.5362,
+    "hy_raw": "ինչ էլ որ լինի",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "inadequate",
+    "frequency": -11.559,
+    "hy_raw": "ոչ ադեկվատ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "informal",
+    "frequency": -11.559,
+    "hy_raw": "ոչ պաշտոնական",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "mph",
+    "frequency": -11.559,
+    "hy_raw": "մղոն/ժ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "nsfw",
+    "frequency": -11.559,
+    "hy_raw": "nsfw",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "pork",
+    "frequency": -11.559,
+    "hy_raw": "խոզի միս",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "risen",
+    "frequency": -11.559,
+    "hy_raw": "հարություն առավ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "sibling",
+    "frequency": -11.559,
+    "hy_raw": "քույր ու եղբայր",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "vii",
+    "frequency": -11.559,
+    "hy_raw": "vii",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "vintage",
+    "frequency": -11.559,
+    "hy_raw": "խաղողի բերքահավաք խաղողի բերք",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "westminster",
+    "frequency": -11.559,
+    "hy_raw": "westminster",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "broadway",
+    "frequency": -11.5823,
+    "hy_raw": "broadway",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "malcolm",
+    "frequency": -11.5823,
+    "hy_raw": "malcolm",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "median",
+    "frequency": -11.5823,
+    "hy_raw": "միջին",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "whale",
+    "frequency": -11.5823,
+    "hy_raw": "կետ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "hugh",
+    "frequency": -11.605,
+    "hy_raw": "hugh",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "stark",
+    "frequency": -11.605,
+    "hy_raw": "խիստ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "subsidiary",
+    "frequency": -11.605,
+    "hy_raw": "դուստր ձեռնարկություն",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "usd",
+    "frequency": -11.605,
+    "hy_raw": "ամն դոլար",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "chi",
+    "frequency": -11.6283,
+    "hy_raw": "chi",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "dock",
+    "frequency": -11.6283,
+    "hy_raw": "նավահանգիստ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "freshman",
+    "frequency": -11.6283,
+    "hy_raw": "առաջին կուրսեցի",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "jackie",
+    "frequency": -11.6283,
+    "hy_raw": "jackie",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "lend",
+    "frequency": -11.6283,
+    "hy_raw": "պարտք տալ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "nicely",
+    "frequency": -11.6283,
+    "hy_raw": "գեղեցիկ",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "walt",
+    "frequency": -11.6283,
+    "hy_raw": "walt",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "constraint",
+    "frequency": -11.651,
+    "hy_raw": "սահմանափակում",
+    "reason": "duplicate_armenian_translation_more_than_3"
+  },
+  {
+    "en": "nbc",
+    "frequency": -11.651,
+    "hy_raw": "nbc",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "artwork",
+    "frequency": -11.6743,
+    "hy_raw": "արվեստի գործ",
+    "reason": "not_single_armenian_word"
+  },
+  {
+    "en": "columbus",
+    "frequency": -11.6743,
+    "hy_raw": "columbus",
+    "reason": "not_single_armenian_word"
+  }
+]
