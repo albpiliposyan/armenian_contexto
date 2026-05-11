@@ -140,6 +140,18 @@ Run the gameplay smoke test:
 python tests/test_game.py
 ```
 
+Play the terminal guessing game:
+
+```bash
+python scripts/play_terminal_game.py
+```
+
+Useful game commands:
+
+- `:hint`: show the English translation hint.
+- `:skip`: reveal the current target and move on.
+- `:quit`: exit the game.
+
 ## Engine Usage
 
 ```python
