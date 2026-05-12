@@ -114,7 +114,7 @@ def print_round_header(round_number, level):
     print()
     print(f"Round {round_number}: {level['name']} ({level['description']})")
     print("Guess the hidden Armenian word.")
-    print("Commands: :hint, :skip, :quit")
+    print("Commands: :hint, :closest, :skip, :quit")
     print()
 
 
@@ -123,7 +123,7 @@ def print_guess_history(history):
         return
 
     print("\nBest guesses:")
-    for item in sorted(history, key=lambda row: row["rank"])[:5]:
+    for item in sorted(history.values(), key=lambda row: row["rank"])[:5]:
         print(
             f"  {item['guess']:<18} "
             f"rank #{item['rank']:<5} "
@@ -133,10 +133,17 @@ def print_guess_history(history):
     print()
 
 
+def print_closest_words(engine, target, top_k=20):
+    print(f"\nTop {top_k} closest words:")
+    for item in engine.closest_words(target, top_k=top_k):
+        print(f"  #{item['rank']:<2} {item['word']:<18} score {item['score']}")
+    print()
+
+
 def play_round(engine, target_item, round_number, level):
     target = target_item["hy"]
     attempts = 0
-    history = []
+    history = {}
 
     print_round_header(round_number, level)
 
@@ -158,6 +165,22 @@ def play_round(engine, target_item, round_number, level):
             print(f"English hint: {english_hint(target_item)}")
             continue
 
+        if guess == ":closest":
+            print_closest_words(engine, target, top_k=20)
+            continue
+
+        processed_guess = engine.process_word(guess)
+        if processed_guess in history:
+            previous = history[processed_guess]
+            print(
+                f"Already guessed '{previous['guess']}'. "
+                f"Rank #{previous['rank']} | "
+                f"similarity {previous['similarity']} | "
+                f"{rank_label(previous['rank'])}"
+            )
+            print_guess_history(history)
+            continue
+
         attempts += 1
         result = engine.get_rank(guess, target)
 
@@ -166,7 +189,7 @@ def play_round(engine, target_item, round_number, level):
             print(f"Solved in {attempts} guesses.")
             return "won"
 
-        history.append(result)
+        history[result["processed_guess"]] = result
         print(
             f"Rank #{result['rank']} | "
             f"similarity {result['similarity']} | "

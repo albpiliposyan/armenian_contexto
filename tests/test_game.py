@@ -8,22 +8,27 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 from armenian_contexto import ArmenianContextoEngine  # noqa: E402
 
 
-engine = ArmenianContextoEngine()
+def main():
+    engine = ArmenianContextoEngine()
 
-target = "դպրոց"
+    target = "դպրոց"
 
-guesses = [
-    "ուսուցիչ",
-    "աշակերտ",
-    "գիրք",
-    "մեքենա",
-    "դպրոցը",
-]
+    guesses = [
+        "ուսուցիչ",
+        "աշակերտ",
+        "գիրք",
+        "մեքենա",
+        "դպրոցը",
+    ]
 
-for guess in guesses:
-    result = engine.get_rank(guess, target)
-    print(result)
+    for guess in guesses:
+        result = engine.get_rank(guess, target)
+        print(result)
 
-print("\nClosest words:")
-for item in engine.closest_words(target, top_k=10):
-    print(item)
+    print("\nClosest words:")
+    for item in engine.closest_words(target, top_k=10):
+        print(item)
+
+
+if __name__ == "__main__":
+    main()

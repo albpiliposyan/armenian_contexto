@@ -3,8 +3,11 @@
 An Armenian implementation of a semantic word guessing game inspired by
 Contexto.
 
-The game does not compare letters. It compares Armenian word embeddings with
-cosine similarity and returns semantic ranks for guesses.
+The game does not compare letters. It combines Armenian embedding similarity,
+English translation similarity, POS tags, and lightweight semantic categories
+to return semantic ranks for guesses.
+
+Note: this project was generated with AI assistance and human supervision.
 
 Example:
 
@@ -26,7 +29,8 @@ armenian_contexto/
 │   ├── raw/          # Original English frequency dataset
 │   ├── interim/      # Cleaned and POS-filtered English words
 │   ├── processed/    # Armenian vocabulary and translation logs
-│   └── embeddings/   # Production-ready embedding matrix
+│   ├── categories/   # Manual semantic category dictionaries
+│   └── embeddings/   # Production-ready embedding matrices
 ├── models/
 │   └── fasttext/     # Armenian FastText model files
 ├── scripts/          # Dataset, translation, and embedding build scripts
@@ -48,9 +52,12 @@ without relying on flat-file paths.
 - `data/interim/cleaned_words.json`: lemmatized and deduplicated English words.
 - `data/interim/contexto_words.json`: POS-filtered Contexto-friendly words.
 - `data/processed/armenian_contexto_words_top5000.json`: main Armenian vocabulary.
+- `data/processed/armenian_contexto_metadata.json`: Armenian word metadata with English translation, POS, frequency, and category.
 - `data/processed/failed_translations_top5000.json`: rejected translation records.
+- `data/categories/english_categories.json`: manual English category dictionary.
 - `models/fasttext/cc.hy.300.bin`: Armenian FastText model.
 - `data/embeddings/armenian_contexto_embeddings.npz`: normalized Armenian embedding matrix.
+- `data/embeddings/english_contexto_embeddings.npz`: normalized lightweight English translation vectors.
 - `src/armenian_contexto/contexto_engine.py`: semantic ranking engine.
 
 ## Git Policy
@@ -69,6 +76,7 @@ Track:
 - `.gitignore`
 - small JSON datasets under `data/`
 - `data/embeddings/armenian_contexto_embeddings.npz`
+- `data/embeddings/english_contexto_embeddings.npz`
 
 Do not track:
 
@@ -134,6 +142,18 @@ Build normalized Armenian embeddings:
 python scripts/build_embeddings.py
 ```
 
+Build metadata, POS tags, categories, and English vectors:
+
+```bash
+python scripts/build_metadata.py
+```
+
+Run unit tests:
+
+```bash
+python -m unittest discover tests
+```
+
 Run the gameplay smoke test:
 
 ```bash
@@ -149,6 +169,7 @@ python scripts/play_terminal_game.py
 Useful game commands:
 
 - `:hint`: show the English translation hint.
+- `:closest`: reveal the 20 closest words to the hidden target.
 - `:skip`: reveal the current target and move on.
 - `:quit`: exit the game.
 
@@ -170,13 +191,24 @@ PYTHONPATH=src python -c "from armenian_contexto import ArmenianContextoEngine; 
 
 ## Core Logic
 
-The engine uses:
+The engine uses a hybrid semantic score:
 
 ```text
-similarity = embedding(word1) @ embedding(word2)
+final_score =
+    0.70 * Armenian FastText cosine similarity
+  + 0.15 * same_category
+  + 0.10 * same_POS
+  + 0.05 * English translation similarity
 ```
 
-Embeddings are normalized, so the dot product is cosine similarity.
+Armenian embeddings are normalized, so the Armenian dot product is cosine
+similarity. English translation vectors are also normalized and stored in
+`data/embeddings/english_contexto_embeddings.npz`.
+
+The extra category, POS, and English translation signals reduce noisy rankings
+from pure FastText embeddings. For example, words in the same topic area or
+part of speech get a small, explicit gameplay bonus without replacing the main
+Armenian semantic signal.
 
 The rank is:
 
@@ -208,10 +240,3 @@ Current Armenian normalization handles:
 - Translation quality depends on Google-based translation output.
 - Armenian stemming is heuristic-based, not a full morphological analyzer.
 - FastText can produce semantic noise for abstract or ambiguous words.
-
-## Future Work
-
-- Add a proper Armenian lemmatizer or Stanza-based morphology.
-- Add daily target words and difficulty levels.
-- Add a FastAPI backend around `ArmenianContextoEngine`.
-- Add a React or Next.js frontend for gameplay.
