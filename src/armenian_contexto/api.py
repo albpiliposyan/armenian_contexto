@@ -5,16 +5,8 @@ from functools import partial
 from typing import Callable
 
 from fastapi import FastAPI, HTTPException, Query, Request
-from pydantic import BaseModel, Field
 
 from .contexto_engine import ArmenianContextoEngine
-
-
-class BatchGuessRequest(BaseModel):
-    """Payload for scoring several guesses against one target word."""
-
-    target: str = Field(min_length=1)
-    guesses: list[str] = Field(min_length=1, max_length=100)
 
 
 def create_app(
@@ -45,17 +37,6 @@ def create_app(
         lifespan=lifespan,
     )
 
-    @app.get("/api/health")
-    async def health(request: Request):
-        """Return service status and loaded vocabulary size."""
-
-        engine = request.app.state.engine
-        return {
-            "status": "ok",
-            "vocabulary_size": len(engine.words),
-            "engine_loaded_once": True,
-        }
-
     @app.get("/api/guess")
     async def guess(
         request: Request,
@@ -83,34 +64,11 @@ def create_app(
             "closest": words,
         }
 
-    @app.post("/api/batch-guess")
-    async def batch_guess(request: Request, payload: BatchGuessRequest):
-        """Score multiple guesses concurrently while keeping the API loop free.
-
-        This project is CPU-light per request and NumPy-heavy inside the engine.
-        Running calls in a thread pool keeps FastAPI's event loop responsive,
-        and NumPy can release the GIL during vector operations. Multiprocessing
-        would duplicate the loaded matrices in each process, which is a poor
-        tradeoff for this workload.
-        """
-
-        engine = request.app.state.engine
-        tasks = [
-            run_engine_call(request, engine.get_rank, guess_word, payload.target)
-            for guess_word in payload.guesses
-        ]
-        results = await asyncio.gather(*tasks)
-        return {
-            "target": payload.target,
-            "count": len(results),
-            "results": results,
-        }
-
     return app
 
 
 async def run_engine_call(request: Request, function, *args):
-    """Run a blocking engine call in the API thread pool."""
+    """Run a blocking NumPy-heavy engine call in the API thread pool."""
 
     loop = asyncio.get_running_loop()
     try:

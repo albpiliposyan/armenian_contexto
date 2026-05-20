@@ -8,7 +8,6 @@ RAW_DATA_DIR = DATA_DIR / "raw"
 INTERIM_DATA_DIR = DATA_DIR / "interim"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
 EMBEDDINGS_DIR = DATA_DIR / "embeddings"
-CATEGORIES_DIR = DATA_DIR / "categories"
 
 MODELS_DIR = PROJECT_ROOT / "models"
 FASTTEXT_DIR = MODELS_DIR / "fasttext"
@@ -22,7 +21,6 @@ ARMENIAN_WORDS_TOP5000_FILE = PROCESSED_DATA_DIR / "armenian_contexto_words_top5
 FAILED_TRANSLATIONS_FILE = PROCESSED_DATA_DIR / "failed_translations.json"
 FAILED_TRANSLATIONS_TOP5000_FILE = PROCESSED_DATA_DIR / "failed_translations_top5000.json"
 METADATA_FILE = PROCESSED_DATA_DIR / "armenian_contexto_metadata.json"
-CATEGORIES_FILE = CATEGORIES_DIR / "english_categories.json"
 
 EMBEDDINGS_FILE = EMBEDDINGS_DIR / "armenian_contexto_embeddings.npz"
 ENGLISH_EMBEDDINGS_FILE = EMBEDDINGS_DIR / "english_contexto_embeddings.npz"

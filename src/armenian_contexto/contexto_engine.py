@@ -6,13 +6,9 @@ import fasttext
 import numpy as np
 
 from .metadata import (
-    build_category_lookup,
-    category_for_english,
-    load_category_map,
     load_metadata,
 )
 from .paths import (
-    CATEGORIES_FILE,
     EMBEDDINGS_FILE,
     ENGLISH_EMBEDDINGS_FILE,
     FASTTEXT_MODEL_FILE,
@@ -26,8 +22,7 @@ ARMENIAN_SUFFIXES = [
 ]
 
 HYBRID_WEIGHTS = {
-    "armenian": 0.70,
-    "category": 0.15,
+    "armenian": 0.85,
     "pos": 0.10,
     "english": 0.05,
 }
@@ -58,13 +53,11 @@ class ArmenianContextoEngine:
         embeddings_file: str | Path = EMBEDDINGS_FILE,
         fasttext_model_file: str | Path = FASTTEXT_MODEL_FILE,
         metadata_file: str | Path = METADATA_FILE,
-        categories_file: str | Path = CATEGORIES_FILE,
         english_embeddings_file: str | Path = ENGLISH_EMBEDDINGS_FILE,
     ):
         self.embeddings_file = Path(embeddings_file)
         self.fasttext_model_file = Path(fasttext_model_file)
         self.metadata_file = Path(metadata_file)
-        self.categories_file = Path(categories_file)
         self.english_embeddings_file = Path(english_embeddings_file)
         self.model = None
 
@@ -77,10 +70,8 @@ class ArmenianContextoEngine:
             word: idx for idx, word in enumerate(self.words)
         }
 
-        category_map = load_category_map(self.categories_file)
-        self.category_lookup = build_category_lookup(category_map)
         self.metadata_by_word = load_metadata(self.metadata_file)
-        self.pos_tags, self.categories = self._metadata_arrays()
+        self.pos_tags = self._metadata_arrays()
         self.english_embeddings = self._load_aligned_english_embeddings()
 
     def process_word(self, word: str) -> str:
@@ -122,19 +113,12 @@ class ArmenianContextoEngine:
 
     def _metadata_arrays(self):
         pos_tags = []
-        categories = []
 
         for word in self.words:
             metadata = self.metadata_by_word.get(word, {})
-            english_word = metadata.get("en", "")
-
             pos_tags.append(metadata.get("pos"))
-            categories.append(
-                metadata.get("category")
-                or category_for_english(english_word, self.category_lookup)
-            )
 
-        return np.array(pos_tags, dtype=object), np.array(categories, dtype=object)
+        return np.array(pos_tags, dtype=object)
 
     def _load_aligned_english_embeddings(self):
         if not self.english_embeddings_file.exists():
@@ -170,18 +154,6 @@ class ArmenianContextoEngine:
     def pos_for_word(self, word: str) -> str | None:
         return self._metadata_for_word(word).get("pos")
 
-    def category_for_word(self, word: str) -> str | None:
-        metadata = self._metadata_for_word(word)
-        return (
-            metadata.get("category")
-            or category_for_english(metadata.get("en", ""), self.category_lookup)
-        )
-
-    def same_category(self, word1: str, word2: str) -> float:
-        category1 = self.category_for_word(word1)
-        category2 = self.category_for_word(word2)
-        return 1.0 if category1 and category1 == category2 else 0.0
-
     def same_pos(self, word1: str, word2: str) -> float:
         pos1 = self.pos_for_word(word1)
         pos2 = self.pos_for_word(word2)
@@ -208,24 +180,20 @@ class ArmenianContextoEngine:
 
     def hybrid_components(self, word1: str, word2: str):
         armenian_score = self.similarity(word1, word2)
-        category_score = self.same_category(word1, word2)
         pos_score = self.same_pos(word1, word2)
         english_score = self.english_similarity(word1, word2)
 
         # Hybrid scoring makes gameplay less noisy than pure embeddings:
-        # Armenian FastText provides broad semantic distance, while category,
-        # POS, and English translation signals reward words that are related in
-        # ways FastText alone can miss or over-smooth.
+        # Armenian FastText provides broad semantic distance, while POS and
+        # English translation signals provide small stabilizers.
         final_score = (
             HYBRID_WEIGHTS["armenian"] * armenian_score
-            + HYBRID_WEIGHTS["category"] * category_score
             + HYBRID_WEIGHTS["pos"] * pos_score
             + HYBRID_WEIGHTS["english"] * english_score
         )
 
         return {
             "armenian_fasttext": round(float(armenian_score), 6),
-            "same_category": category_score,
             "same_pos": pos_score,
             "english_similarity": round(float(english_score), 6),
             "final_score": round(float(final_score), 6),
@@ -240,12 +208,6 @@ class ArmenianContextoEngine:
         target_vec = self.get_vector(target)
 
         armenian_scores = self.embeddings @ target_vec
-
-        target_category = self.category_for_word(target)
-        if target_category:
-            category_scores = (self.categories == target_category).astype(np.float32)
-        else:
-            category_scores = np.zeros(len(self.words), dtype=np.float32)
 
         target_pos = self.pos_for_word(target)
         if target_pos:
@@ -267,7 +229,6 @@ class ArmenianContextoEngine:
         # target than the user's guess.
         return (
             HYBRID_WEIGHTS["armenian"] * armenian_scores
-            + HYBRID_WEIGHTS["category"] * category_scores
             + HYBRID_WEIGHTS["pos"] * pos_scores
             + HYBRID_WEIGHTS["english"] * english_scores
         )

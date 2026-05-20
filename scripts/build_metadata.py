@@ -10,15 +10,11 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from armenian_contexto.english_vectors import HashEnglishVectorizer  # noqa: E402
 from armenian_contexto.metadata import (  # noqa: E402
-    build_category_lookup,
-    category_for_english,
-    load_category_map,
     load_json,
     save_json,
 )
 from armenian_contexto.paths import (  # noqa: E402
     ARMENIAN_WORDS_TOP5000_FILE,
-    CATEGORIES_FILE,
     ENGLISH_EMBEDDINGS_FILE,
     METADATA_FILE,
 )
@@ -60,7 +56,6 @@ def english_vector(nlp, fallback_vectorizer, english_word: str) -> np.ndarray:
 
 def main():
     vocabulary = load_json(ARMENIAN_WORDS_TOP5000_FILE, [])
-    category_lookup = build_category_lookup(load_category_map(CATEGORIES_FILE))
     vectorizer = HashEnglishVectorizer()
     nlp = spacy.load("en_core_web_sm")
 
@@ -77,7 +72,6 @@ def main():
             "en": en_word,
             "frequency": frequency,
             "pos": pos_tag(nlp, en_word),
-            "category": category_for_english(en_word, category_lookup),
         })
 
         words.append(hy_word)

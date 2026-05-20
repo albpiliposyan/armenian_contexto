@@ -4,8 +4,8 @@ An Armenian implementation of a semantic word guessing game inspired by
 Contexto.
 
 The game does not compare letters. It combines Armenian embedding similarity,
-English translation similarity, POS tags, and lightweight semantic categories
-to return semantic ranks for guesses.
+English translation similarity, and POS tags to return semantic ranks for
+guesses.
 
 Note: this project was generated with AI assistance and human supervision.
 
@@ -29,7 +29,6 @@ armenian_contexto/
 │   ├── raw/          # Original English frequency dataset
 │   ├── interim/      # Cleaned and POS-filtered English words
 │   ├── processed/    # Armenian vocabulary and translation logs
-│   ├── categories/   # Manual semantic category dictionaries
 │   └── embeddings/   # Production-ready embedding matrices
 ├── models/
 │   └── fasttext/     # Armenian FastText model files
@@ -52,9 +51,8 @@ without relying on flat-file paths.
 - `data/interim/cleaned_words.json`: lemmatized and deduplicated English words.
 - `data/interim/contexto_words.json`: POS-filtered Contexto-friendly words.
 - `data/processed/armenian_contexto_words_top5000.json`: main Armenian vocabulary.
-- `data/processed/armenian_contexto_metadata.json`: Armenian word metadata with English translation, POS, frequency, and category.
+- `data/processed/armenian_contexto_metadata.json`: Armenian word metadata with English translation, POS, and frequency.
 - `data/processed/failed_translations_top5000.json`: rejected translation records.
-- `data/categories/english_categories.json`: manual English category dictionary.
 - `models/fasttext/cc.hy.300.bin`: Armenian FastText model.
 - `data/embeddings/armenian_contexto_embeddings.npz`: normalized Armenian embedding matrix.
 - `data/embeddings/english_contexto_embeddings.npz`: normalized lightweight English translation vectors.
@@ -172,7 +170,7 @@ Build normalized Armenian embeddings:
 python scripts/build_embeddings.py
 ```
 
-Build metadata, POS tags, categories, and English vectors:
+Build metadata, POS tags, and English vectors:
 
 ```bash
 python scripts/build_metadata.py
@@ -225,12 +223,8 @@ uvicorn armenian_contexto.api:app --host 127.0.0.1 --port 8000
 Example API calls:
 
 ```bash
-curl "http://127.0.0.1:8000/api/health"
 curl "http://127.0.0.1:8000/api/guess?target=դպրոց&guess=ուսուցիչ"
 curl "http://127.0.0.1:8000/api/closest?target=դպրոց&top_k=20"
-curl -X POST "http://127.0.0.1:8000/api/batch-guess" \
-  -H "Content-Type: application/json" \
-  -d '{"target":"դպրոց","guesses":["ուսուցիչ","աշակերտ","մեքենա"]}'
 ```
 
 ## Engine Usage
@@ -255,8 +249,7 @@ The engine uses a hybrid semantic score:
 
 ```text
 final_score =
-    0.70 * Armenian FastText cosine similarity
-  + 0.15 * same_category
+    0.85 * Armenian FastText cosine similarity
   + 0.10 * same_POS
   + 0.05 * English translation similarity
 ```
@@ -265,10 +258,8 @@ Armenian embeddings are normalized, so the Armenian dot product is cosine
 similarity. English translation vectors are also normalized and stored in
 `data/embeddings/english_contexto_embeddings.npz`.
 
-The extra category, POS, and English translation signals reduce noisy rankings
-from pure FastText embeddings. For example, words in the same topic area or
-part of speech get a small, explicit gameplay bonus without replacing the main
-Armenian semantic signal.
+The POS and English translation signals are small stabilizers on top of the
+main Armenian semantic signal.
 
 The rank is:
 
@@ -292,8 +283,8 @@ guesses.
 Concurrency choice:
 
 - The API endpoints are `async`, so HTTP handling is I/O-friendly.
-- Engine calls run in a `ThreadPoolExecutor` for batch requests, keeping the
-  FastAPI event loop responsive.
+- Engine calls run in a `ThreadPoolExecutor`, keeping the FastAPI event loop
+  responsive.
 - This is a CPU-light, NumPy-heavy workload. NumPy does the expensive vector math
   in optimized native code and can release the GIL during array operations.
 - Multiprocessing is not a good default here because each process would need its

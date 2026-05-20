@@ -9,20 +9,6 @@ def test_school_is_closer_to_teacher_than_car(engine):
 
 
 @pytest.mark.parametrize(
-    ("guess", "target", "expected_category"),
-    [
-        ("ուսուցիչ", "դպրոց", 1.0),
-        ("աշակերտ", "դպրոց", 1.0),
-        ("մեքենա", "դպրոց", 0.0),
-    ],
-)
-def test_category_bonus_uses_external_metadata(engine, guess, target, expected_category):
-    components = engine.hybrid_components(guess, target)
-
-    assert components["same_category"] == expected_category
-
-
-@pytest.mark.parametrize(
     ("guess", "target", "expected_pos"),
     [
         ("ուսուցիչ", "դպրոց", 1.0),
