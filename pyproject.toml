@@ -10,10 +10,14 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "deep-translator",
+    "fastapi",
     "fasttext-wheel",
+    "httpx",
     "numpy",
+    "pytest",
     "spacy",
     "tqdm",
+    "uvicorn",
 ]
 
 [tool.setuptools.packages.find]

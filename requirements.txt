@@ -1,5 +1,9 @@
 deep-translator
+fastapi
 fasttext-wheel
+httpx
 numpy
+pytest
 spacy
 tqdm
+uvicorn

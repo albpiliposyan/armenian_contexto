@@ -94,6 +94,12 @@ class ArmenianContextoEngine:
 
     def _load_fasttext_model(self):
         if self.model is None:
+            if not self.fasttext_model_file.exists():
+                raise FileNotFoundError(
+                    f"Missing Armenian FastText model: {self.fasttext_model_file}. "
+                    "Run `python scripts/run_project.py` to download it, or avoid "
+                    "out-of-vocabulary guesses."
+                )
             print("Loading FastText model...")
             self.model = fasttext.load_model(str(self.fasttext_model_file))
         return self.model

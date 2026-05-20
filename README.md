@@ -95,22 +95,52 @@ the project later needs formal artifact versioning.
 Recommended Python version: 3.11.
 
 ```bash
-python3.11 -m venv venv
+python3 --version
+python3 -m venv venv
 source venv/bin/activate
 python -m pip install -U pip
 python -m pip install -e .
-python -m spacy download en_core_web_sm
 ```
 
-The project already expects the Armenian FastText model at:
+Use a Python executable that reports version `3.11` or newer.
 
-```text
-models/fasttext/cc.hy.300.bin
+Then run the project workflow helper:
+
+```bash
+python scripts/run_project.py
 ```
+
+The helper checks required derived files, runs tests, and asks before downloading
+external models. If `models/fasttext/cc.hy.300.bin` is missing, it asks before
+downloading the Armenian FastText model with:
+
+```python
+import fasttext.util
+fasttext.util.download_model("hy", if_exists="ignore")
+```
+
+That download is large: `cc.hy.300.bin.gz` is about 4.2 GB compressed and
+extracts to `cc.hy.300.bin`, about 6.8 GB. Keep roughly 11 GB free while both
+files are present.
+
+Useful workflow flags:
+
+- `--yes`: answer yes to download prompts.
+- `--no-download`: never download missing external artifacts.
+- `--download-model-only`: only ensure `models/fasttext/cc.hy.300.bin` exists.
+- `--rebuild`: rebuild derived embeddings and metadata.
+- `--api`: launch the FastAPI server after setup and tests.
+- `--play`: launch the terminal game after setup and tests.
 
 ## Workflow
 
 Run commands from the project root.
+
+Recommended one-command workflow:
+
+```bash
+python scripts/run_project.py
+```
 
 Inspect top English frequency words:
 
@@ -148,10 +178,17 @@ Build metadata, POS tags, categories, and English vectors:
 python scripts/build_metadata.py
 ```
 
+If `en_core_web_sm` is missing, either let `scripts/run_project.py` install it
+or run:
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
 Run unit tests:
 
 ```bash
-python -m unittest discover tests
+python -m pytest tests
 ```
 
 Run the gameplay smoke test:
@@ -172,6 +209,29 @@ Useful game commands:
 - `:closest`: reveal the 20 closest words to the hidden target.
 - `:skip`: reveal the current target and move on.
 - `:quit`: exit the game.
+
+Run the API:
+
+```bash
+python scripts/run_project.py --api
+```
+
+Or directly:
+
+```bash
+uvicorn armenian_contexto.api:app --host 127.0.0.1 --port 8000
+```
+
+Example API calls:
+
+```bash
+curl "http://127.0.0.1:8000/api/health"
+curl "http://127.0.0.1:8000/api/guess?target=դպրոց&guess=ուսուցիչ"
+curl "http://127.0.0.1:8000/api/closest?target=դպրոց&top_k=20"
+curl -X POST "http://127.0.0.1:8000/api/batch-guess" \
+  -H "Content-Type: application/json" \
+  -d '{"target":"դպրոց","guesses":["ուսուցիչ","աշակերտ","մեքենա"]}'
+```
 
 ## Engine Usage
 
@@ -215,6 +275,39 @@ The rank is:
 ```text
 number of vocabulary words more similar to the target + 1
 ```
+
+## Architecture
+
+The API is FastAPI-based and loads one `ArmenianContextoEngine` during startup.
+That engine keeps the precomputed NumPy matrices in memory for the life of the
+process:
+
+- `data/embeddings/armenian_contexto_embeddings.npz`: about 4.4 MB, currently `(4112, 300)`.
+- `data/embeddings/english_contexto_embeddings.npz`: about 1.4 MB, currently `(4112, 96)`.
+
+The normal gameplay path does not load the 6.8 GB FastText model. That model is
+only needed for rebuilding Armenian embeddings or scoring out-of-vocabulary
+guesses.
+
+Concurrency choice:
+
+- The API endpoints are `async`, so HTTP handling is I/O-friendly.
+- Engine calls run in a `ThreadPoolExecutor` for batch requests, keeping the
+  FastAPI event loop responsive.
+- This is a CPU-light, NumPy-heavy workload. NumPy does the expensive vector math
+  in optimized native code and can release the GIL during array operations.
+- Multiprocessing is not a good default here because each process would need its
+  own copy of the loaded matrices, increasing memory use for a small per-request
+  computation.
+
+Memory management:
+
+- Embeddings are precomputed and stored as `float32`.
+- Matrices are loaded once at API startup and reused.
+- Ranking is vectorized over the vocabulary instead of looping through Python
+  objects one word at a time.
+- The large FastText binary is kept outside Git and outside the normal request
+  path.
 
 ## Winning Condition
 
