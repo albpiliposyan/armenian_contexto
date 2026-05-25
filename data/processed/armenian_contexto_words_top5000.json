@@ -26,7 +26,7 @@
     ]
   },
   {
-    "hy": "մարդիկ",
+    "hy": "մարդկանց",
     "translations": [
       {
         "en": "people",
@@ -545,23 +545,6 @@
     ]
   },
   {
-    "hy": "մարդ",
-    "translations": [
-      {
-        "en": "person",
-        "frequency": -7.9211
-      },
-      {
-        "en": "human",
-        "frequency": -8.2901
-      },
-      {
-        "en": "man",
-        "frequency": -7.2759
-      }
-    ]
-  },
-  {
     "hy": "փոփոխություն",
     "translations": [
       {
@@ -954,19 +937,6 @@
     ]
   },
   {
-    "hy": "տարածք",
-    "translations": [
-      {
-        "en": "area",
-        "frequency": -8.1285
-      },
-      {
-        "en": "territory",
-        "frequency": -9.8778
-      }
-    ]
-  },
-  {
     "hy": "կարևոր",
     "translations": [
       {
@@ -981,6 +951,19 @@
       {
         "en": "run",
         "frequency": -8.1285
+      }
+    ]
+  },
+  {
+    "hy": "տարածք",
+    "translations": [
+      {
+        "en": "area",
+        "frequency": -8.1285
+      },
+      {
+        "en": "territory",
+        "frequency": -9.8778
       }
     ]
   },
@@ -1151,10 +1134,6 @@
       {
         "en": "shit",
         "frequency": -8.2208
-      },
-      {
-        "en": "shitty",
-        "frequency": -11.4453
       }
     ]
   },
@@ -1368,6 +1347,23 @@
       {
         "en": "hope",
         "frequency": -8.2901
+      }
+    ]
+  },
+  {
+    "hy": "մարդ",
+    "translations": [
+      {
+        "en": "human",
+        "frequency": -8.2901
+      },
+      {
+        "en": "person",
+        "frequency": -7.9211
+      },
+      {
+        "en": "man",
+        "frequency": -7.2759
       }
     ]
   },
@@ -2313,6 +2309,10 @@
       {
         "en": "basic",
         "frequency": -9.3943
+      },
+      {
+        "en": "prime",
+        "frequency": -9.4174
       }
     ]
   },
@@ -2432,32 +2432,6 @@
     ]
   },
   {
-    "hy": "բերել",
-    "translations": [
-      {
-        "en": "bring",
-        "frequency": -8.6115
-      }
-    ]
-  },
-  {
-    "hy": "պարզ",
-    "translations": [
-      {
-        "en": "clear",
-        "frequency": -8.6115
-      },
-      {
-        "en": "simple",
-        "frequency": -8.9557
-      },
-      {
-        "en": "plain",
-        "frequency": -10.5459
-      }
-    ]
-  },
-  {
     "hy": "ֆրանսերեն",
     "translations": [
       {
@@ -2503,6 +2477,32 @@
       {
         "en": "position",
         "frequency": -8.6115
+      }
+    ]
+  },
+  {
+    "hy": "բերել",
+    "translations": [
+      {
+        "en": "bring",
+        "frequency": -8.6115
+      }
+    ]
+  },
+  {
+    "hy": "պարզ",
+    "translations": [
+      {
+        "en": "clear",
+        "frequency": -8.6115
+      },
+      {
+        "en": "simple",
+        "frequency": -8.9557
+      },
+      {
+        "en": "plain",
+        "frequency": -10.5459
       }
     ]
   },
@@ -2867,7 +2867,7 @@
     ]
   },
   {
-    "hy": "միսս",
+    "hy": "կարոտ",
     "translations": [
       {
         "en": "miss",
@@ -3244,6 +3244,10 @@
       {
         "en": "private",
         "frequency": -8.7721
+      },
+      {
+        "en": "privately",
+        "frequency": -11.5129
       }
     ]
   },
@@ -4888,6 +4892,19 @@
     ]
   },
   {
+    "hy": "նշան",
+    "translations": [
+      {
+        "en": "sign",
+        "frequency": -9.0706
+      },
+      {
+        "en": "mark",
+        "frequency": -9.1427
+      }
+    ]
+  },
+  {
     "hy": "անձնակազմը",
     "translations": [
       {
@@ -5154,45 +5171,6 @@
     ]
   },
   {
-    "hy": "պարոն",
-    "translations": [
-      {
-        "en": "sir",
-        "frequency": -9.115
-      },
-      {
-        "en": "gentleman",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "կոնկրետ",
-    "translations": [
-      {
-        "en": "specific",
-        "frequency": -9.115
-      },
-      {
-        "en": "specifically",
-        "frequency": -9.9464
-      },
-      {
-        "en": "concrete",
-        "frequency": -10.5013
-      }
-    ]
-  },
-  {
-    "hy": "բանվոր",
-    "translations": [
-      {
-        "en": "worker",
-        "frequency": -9.115
-      }
-    ]
-  },
-  {
     "hy": "խենթ",
     "translations": [
       {
@@ -5263,6 +5241,45 @@
     "translations": [
       {
         "en": "paper",
+        "frequency": -9.115
+      }
+    ]
+  },
+  {
+    "hy": "պարոն",
+    "translations": [
+      {
+        "en": "sir",
+        "frequency": -9.115
+      },
+      {
+        "en": "gentleman",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
+    "hy": "կոնկրետ",
+    "translations": [
+      {
+        "en": "specific",
+        "frequency": -9.115
+      },
+      {
+        "en": "specifically",
+        "frequency": -9.9464
+      },
+      {
+        "en": "concrete",
+        "frequency": -10.5013
+      }
+    ]
+  },
+  {
+    "hy": "բանվոր",
+    "translations": [
+      {
+        "en": "worker",
         "frequency": -9.115
       }
     ]
@@ -5372,19 +5389,6 @@
       {
         "en": "island",
         "frequency": -9.1427
-      }
-    ]
-  },
-  {
-    "hy": "նշան",
-    "translations": [
-      {
-        "en": "mark",
-        "frequency": -9.1427
-      },
-      {
-        "en": "sign",
-        "frequency": -9.0706
       }
     ]
   },
@@ -5540,11 +5544,15 @@
     ]
   },
   {
-    "hy": "հանրաճանաչ",
+    "hy": "հայտնի",
     "translations": [
       {
         "en": "popular",
         "frequency": -9.1616
+      },
+      {
+        "en": "famous",
+        "frequency": -9.5101
       }
     ]
   },
@@ -6665,6 +6673,10 @@
       {
         "en": "claim",
         "frequency": -9.3485
+      },
+      {
+        "en": "requirement",
+        "frequency": -10.1992
       }
     ]
   },
@@ -6830,10 +6842,6 @@
       {
         "en": "contract",
         "frequency": -9.3717
-      },
-      {
-        "en": "treaty",
-        "frequency": -10.3848
       }
     ]
   },
@@ -7064,7 +7072,7 @@
     ]
   },
   {
-    "hy": "հարկ",
+    "hy": "հատակ",
     "translations": [
       {
         "en": "floor",
@@ -7283,19 +7291,6 @@
       {
         "en": "parliament",
         "frequency": -9.4174
-      }
-    ]
-  },
-  {
-    "hy": "գլխավոր",
-    "translations": [
-      {
-        "en": "prime",
-        "frequency": -9.4174
-      },
-      {
-        "en": "principal",
-        "frequency": -10.1992
       }
     ]
   },
@@ -8069,15 +8064,6 @@
     ]
   },
   {
-    "hy": "հայտնի",
-    "translations": [
-      {
-        "en": "famous",
-        "frequency": -9.5101
-      }
-    ]
-  },
-  {
     "hy": "սիրելի",
     "translations": [
       {
@@ -8556,7 +8542,7 @@
     ]
   },
   {
-    "hy": "չաղ",
+    "hy": "ճարպ",
     "translations": [
       {
         "en": "fat",
@@ -9818,7 +9804,7 @@
     ]
   },
   {
-    "hy": "հայեցակարգը",
+    "hy": "հայեցակարգ",
     "translations": [
       {
         "en": "concept",
@@ -9965,7 +9951,7 @@
     ]
   },
   {
-    "hy": "ղեկավարություն",
+    "hy": "ղեկավարությունը",
     "translations": [
       {
         "en": "leadership",
@@ -10478,6 +10464,10 @@
       {
         "en": "sector",
         "frequency": -9.7866
+      },
+      {
+        "en": "segment",
+        "frequency": -10.9823
       }
     ]
   },
@@ -14812,7 +14802,7 @@
     ]
   },
   {
-    "hy": "մահմեդական",
+    "hy": "մուսուլման",
     "translations": [
       {
         "en": "muslim",
@@ -14825,6 +14815,15 @@
     "translations": [
       {
         "en": "orange",
+        "frequency": -10.1992
+      }
+    ]
+  },
+  {
+    "hy": "գլխավոր",
+    "translations": [
+      {
+        "en": "principal",
         "frequency": -10.1992
       }
     ]
@@ -14856,15 +14855,6 @@
     "translations": [
       {
         "en": "relief",
-        "frequency": -10.1992
-      }
-    ]
-  },
-  {
-    "hy": "պահանջը",
-    "translations": [
-      {
-        "en": "requirement",
         "frequency": -10.1992
       }
     ]
@@ -15092,7 +15082,7 @@
     ]
   },
   {
-    "hy": "ասպեկտ",
+    "hy": "ասպեկտը",
     "translations": [
       {
         "en": "aspect",
@@ -17083,15 +17073,20 @@
     ]
   },
   {
-    "hy": "տաճար",
+    "hy": "տաճարը",
     "translations": [
       {
         "en": "temple",
         "frequency": -10.3848
-      },
+      }
+    ]
+  },
+  {
+    "hy": "պայմանագիրը",
+    "translations": [
       {
-        "en": "cathedral",
-        "frequency": -11.3059
+        "en": "treaty",
+        "frequency": -10.3848
       }
     ]
   },
@@ -17658,15 +17653,11 @@
     ]
   },
   {
-    "hy": "գնահատում",
+    "hy": "գնահատականը",
     "translations": [
       {
         "en": "assessment",
         "frequency": -10.4551
-      },
-      {
-        "en": "evaluation",
-        "frequency": -10.7758
       }
     ]
   },
@@ -19517,15 +19508,11 @@
     ]
   },
   {
-    "hy": "լարը",
+    "hy": "լար",
     "translations": [
       {
         "en": "string",
         "frequency": -10.5459
-      },
-      {
-        "en": "cord",
-        "frequency": -11.651
       }
     ]
   },
@@ -19895,7 +19882,7 @@
     ]
   },
   {
-    "hy": "ֆրանցիսկոսը",
+    "hy": "ֆրանցիս",
     "translations": [
       {
         "en": "francis",
@@ -20097,109 +20084,6 @@
       {
         "en": "vital",
         "frequency": -10.5926
-      }
-    ]
-  },
-  {
-    "hy": "գումար",
-    "translations": [
-      {
-        "en": "sum",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "գոյատեւումը",
-    "translations": [
-      {
-        "en": "survival",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "սուրը",
-    "translations": [
-      {
-        "en": "sword",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "հաստ",
-    "translations": [
-      {
-        "en": "thick",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "հետք",
-    "translations": [
-      {
-        "en": "trail",
-        "frequency": -10.6168
-      },
-      {
-        "en": "trace",
-        "frequency": -11.0061
-      }
-    ]
-  },
-  {
-    "hy": "տգեղ",
-    "translations": [
-      {
-        "en": "ugly",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "ուկրաինա",
-    "translations": [
-      {
-        "en": "ukraine",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "վավեր",
-    "translations": [
-      {
-        "en": "valid",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "հատոր",
-    "translations": [
-      {
-        "en": "vol",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "լվանալ",
-    "translations": [
-      {
-        "en": "wash",
-        "frequency": -10.6168
-      }
-    ]
-  },
-  {
-    "hy": "մետաղալար",
-    "translations": [
-      {
-        "en": "wire",
-        "frequency": -10.6168
       }
     ]
   },
@@ -20432,6 +20316,109 @@
     "translations": [
       {
         "en": "seed",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "գումար",
+    "translations": [
+      {
+        "en": "sum",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "գոյատեւումը",
+    "translations": [
+      {
+        "en": "survival",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "սուրը",
+    "translations": [
+      {
+        "en": "sword",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "հաստ",
+    "translations": [
+      {
+        "en": "thick",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "հետք",
+    "translations": [
+      {
+        "en": "trail",
+        "frequency": -10.6168
+      },
+      {
+        "en": "trace",
+        "frequency": -11.0061
+      }
+    ]
+  },
+  {
+    "hy": "տգեղ",
+    "translations": [
+      {
+        "en": "ugly",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "ուկրաինա",
+    "translations": [
+      {
+        "en": "ukraine",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "վավեր",
+    "translations": [
+      {
+        "en": "valid",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "հատոր",
+    "translations": [
+      {
+        "en": "vol",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "լվանալ",
+    "translations": [
+      {
+        "en": "wash",
+        "frequency": -10.6168
+      }
+    ]
+  },
+  {
+    "hy": "մետաղալար",
+    "translations": [
+      {
+        "en": "wire",
         "frequency": -10.6168
       }
     ]
@@ -21514,6 +21501,28 @@
     ]
   },
   {
+    "hy": "անն",
+    "translations": [
+      {
+        "en": "anne",
+        "frequency": -10.7064
+      },
+      {
+        "en": "ann",
+        "frequency": -10.8923
+      }
+    ]
+  },
+  {
+    "hy": "նյարդայնացնող",
+    "translations": [
+      {
+        "en": "annoying",
+        "frequency": -10.7064
+      }
+    ]
+  },
+  {
     "hy": "արթուր",
     "translations": [
       {
@@ -21862,28 +21871,6 @@
     "translations": [
       {
         "en": "wolf",
-        "frequency": -10.7064
-      }
-    ]
-  },
-  {
-    "hy": "անն",
-    "translations": [
-      {
-        "en": "anne",
-        "frequency": -10.7064
-      },
-      {
-        "en": "ann",
-        "frequency": -10.8923
-      }
-    ]
-  },
-  {
-    "hy": "նյարդայնացնող",
-    "translations": [
-      {
-        "en": "annoying",
         "frequency": -10.7064
       }
     ]
@@ -22574,6 +22561,15 @@
     ]
   },
   {
+    "hy": "գնահատում",
+    "translations": [
+      {
+        "en": "evaluation",
+        "frequency": -10.7758
+      }
+    ]
+  },
+  {
     "hy": "շրջանակը",
     "translations": [
       {
@@ -22686,10 +22682,6 @@
       {
         "en": "passage",
         "frequency": -10.7758
-      },
-      {
-        "en": "segment",
-        "frequency": -10.9823
       }
     ]
   },
@@ -23525,82 +23517,6 @@
     ]
   },
   {
-    "hy": "կասեցնել",
-    "translations": [
-      {
-        "en": "suspend",
-        "frequency": -10.8451
-      }
-    ]
-  },
-  {
-    "hy": "զբոսաշրջիկ",
-    "translations": [
-      {
-        "en": "tourist",
-        "frequency": -10.8451
-      }
-    ]
-  },
-  {
-    "hy": "ծուղակ",
-    "translations": [
-      {
-        "en": "trap",
-        "frequency": -10.8451
-      }
-    ]
-  },
-  {
-    "hy": "միասնություն",
-    "translations": [
-      {
-        "en": "unity",
-        "frequency": -10.8451
-      }
-    ]
-  },
-  {
-    "hy": "կամավոր",
-    "translations": [
-      {
-        "en": "volunteer",
-        "frequency": -10.8451
-      },
-      {
-        "en": "voluntary",
-        "frequency": -11.1908
-      }
-    ]
-  },
-  {
-    "hy": "խոցելի",
-    "translations": [
-      {
-        "en": "vulnerable",
-        "frequency": -10.8451
-      }
-    ]
-  },
-  {
-    "hy": "մոլախոտ",
-    "translations": [
-      {
-        "en": "weed",
-        "frequency": -10.8451
-      }
-    ]
-  },
-  {
-    "hy": "փայտե",
-    "translations": [
-      {
-        "en": "wooden",
-        "frequency": -10.8451
-      }
-    ]
-  },
-  {
     "hy": "ալի",
     "translations": [
       {
@@ -23989,6 +23905,82 @@
     "translations": [
       {
         "en": "sec",
+        "frequency": -10.8451
+      }
+    ]
+  },
+  {
+    "hy": "կասեցնել",
+    "translations": [
+      {
+        "en": "suspend",
+        "frequency": -10.8451
+      }
+    ]
+  },
+  {
+    "hy": "զբոսաշրջիկ",
+    "translations": [
+      {
+        "en": "tourist",
+        "frequency": -10.8451
+      }
+    ]
+  },
+  {
+    "hy": "ծուղակ",
+    "translations": [
+      {
+        "en": "trap",
+        "frequency": -10.8451
+      }
+    ]
+  },
+  {
+    "hy": "միասնություն",
+    "translations": [
+      {
+        "en": "unity",
+        "frequency": -10.8451
+      }
+    ]
+  },
+  {
+    "hy": "կամավոր",
+    "translations": [
+      {
+        "en": "volunteer",
+        "frequency": -10.8451
+      },
+      {
+        "en": "voluntary",
+        "frequency": -11.1908
+      }
+    ]
+  },
+  {
+    "hy": "խոցելի",
+    "translations": [
+      {
+        "en": "vulnerable",
+        "frequency": -10.8451
+      }
+    ]
+  },
+  {
+    "hy": "մոլախոտ",
+    "translations": [
+      {
+        "en": "weed",
+        "frequency": -10.8451
+      }
+    ]
+  },
+  {
+    "hy": "փայտե",
+    "translations": [
+      {
+        "en": "wooden",
         "frequency": -10.8451
       }
     ]
@@ -26601,19 +26593,11 @@
     ]
   },
   {
-    "hy": "ընդունումը",
+    "hy": "ընդունում",
     "translations": [
       {
         "en": "acceptance",
         "frequency": -11.0305
-      },
-      {
-        "en": "adoption",
-        "frequency": -11.1209
-      },
-      {
-        "en": "intake",
-        "frequency": -11.5129
       }
     ]
   },
@@ -26761,7 +26745,7 @@
     ]
   },
   {
-    "hy": "սով",
+    "hy": "քաղց",
     "translations": [
       {
         "en": "hunger",
@@ -27844,6 +27828,153 @@
     ]
   },
   {
+    "hy": "հավասարակշռված",
+    "translations": [
+      {
+        "en": "balanced",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "գաղութ",
+    "translations": [
+      {
+        "en": "colony",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "հաջորդական",
+    "translations": [
+      {
+        "en": "consecutive",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "դավադրություն",
+    "translations": [
+      {
+        "en": "conspiracy",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "հակասական",
+    "translations": [
+      {
+        "en": "controversial",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "դատապարտյալ",
+    "translations": [
+      {
+        "en": "convict",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "թխվածքաբլիթ",
+    "translations": [
+      {
+        "en": "cooky",
+        "frequency": -11.1008
+      },
+      {
+        "en": "cookie",
+        "frequency": -11.6283
+      }
+    ]
+  },
+  {
+    "hy": "նավարկություն",
+    "translations": [
+      {
+        "en": "cruise",
+        "frequency": -11.1008
+      },
+      {
+        "en": "navigation",
+        "frequency": -11.4931
+      }
+    ]
+  },
+  {
+    "hy": "դեկտ",
+    "translations": [
+      {
+        "en": "dec",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "դետեկտիվ",
+    "translations": [
+      {
+        "en": "detective",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "մշակող",
+    "translations": [
+      {
+        "en": "developer",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "երկրաշարժ",
+    "translations": [
+      {
+        "en": "earthquake",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "ութերորդ",
+    "translations": [
+      {
+        "en": "eighth",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
+    "hy": "իրավասու",
+    "translations": [
+      {
+        "en": "eligible",
+        "frequency": -11.1008
+      },
+      {
+        "en": "competent",
+        "frequency": -11.6283
+      }
+    ]
+  },
+  {
+    "hy": "էվանսը",
+    "translations": [
+      {
+        "en": "evans",
+        "frequency": -11.1008
+      }
+    ]
+  },
+  {
     "hy": "ավտոտնակ",
     "translations": [
       {
@@ -28150,189 +28281,6 @@
       {
         "en": "yield",
         "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "հավասարակշռված",
-    "translations": [
-      {
-        "en": "balanced",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "գաղութ",
-    "translations": [
-      {
-        "en": "colony",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "հաջորդական",
-    "translations": [
-      {
-        "en": "consecutive",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "դավադրություն",
-    "translations": [
-      {
-        "en": "conspiracy",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "հակասական",
-    "translations": [
-      {
-        "en": "controversial",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "դատապարտյալ",
-    "translations": [
-      {
-        "en": "convict",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "թխվածքաբլիթ",
-    "translations": [
-      {
-        "en": "cooky",
-        "frequency": -11.1008
-      },
-      {
-        "en": "cookie",
-        "frequency": -11.6283
-      }
-    ]
-  },
-  {
-    "hy": "նավարկություն",
-    "translations": [
-      {
-        "en": "cruise",
-        "frequency": -11.1008
-      },
-      {
-        "en": "navigation",
-        "frequency": -11.4931
-      }
-    ]
-  },
-  {
-    "hy": "դեկտ",
-    "translations": [
-      {
-        "en": "dec",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "դետեկտիվ",
-    "translations": [
-      {
-        "en": "detective",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "մշակող",
-    "translations": [
-      {
-        "en": "developer",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "երկրաշարժ",
-    "translations": [
-      {
-        "en": "earthquake",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "ութերորդ",
-    "translations": [
-      {
-        "en": "eighth",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "իրավասու",
-    "translations": [
-      {
-        "en": "eligible",
-        "frequency": -11.1008
-      },
-      {
-        "en": "competent",
-        "frequency": -11.6283
-      }
-    ]
-  },
-  {
-    "hy": "էվանսը",
-    "translations": [
-      {
-        "en": "evans",
-        "frequency": -11.1008
-      }
-    ]
-  },
-  {
-    "hy": "ակտիվիստ",
-    "translations": [
-      {
-        "en": "activist",
-        "frequency": -11.1209
-      }
-    ]
-  },
-  {
-    "hy": "աճուրդ",
-    "translations": [
-      {
-        "en": "auction",
-        "frequency": -11.1209
-      }
-    ]
-  },
-  {
-    "hy": "արգելք",
-    "translations": [
-      {
-        "en": "barrier",
-        "frequency": -11.1209
-      }
-    ]
-  },
-  {
-    "hy": "պեկին",
-    "translations": [
-      {
-        "en": "beijing",
-        "frequency": -11.1209
       }
     ]
   },
@@ -28709,6 +28657,55 @@
     ]
   },
   {
+    "hy": "ակտիվիստ",
+    "translations": [
+      {
+        "en": "activist",
+        "frequency": -11.1209
+      }
+    ]
+  },
+  {
+    "hy": "ընդունումը",
+    "translations": [
+      {
+        "en": "adoption",
+        "frequency": -11.1209
+      },
+      {
+        "en": "intake",
+        "frequency": -11.5129
+      }
+    ]
+  },
+  {
+    "hy": "աճուրդ",
+    "translations": [
+      {
+        "en": "auction",
+        "frequency": -11.1209
+      }
+    ]
+  },
+  {
+    "hy": "արգելք",
+    "translations": [
+      {
+        "en": "barrier",
+        "frequency": -11.1209
+      }
+    ]
+  },
+  {
+    "hy": "պեկին",
+    "translations": [
+      {
+        "en": "beijing",
+        "frequency": -11.1209
+      }
+    ]
+  },
+  {
     "hy": "լրտես",
     "translations": [
       {
@@ -28771,78 +28768,11 @@
     ]
   },
   {
-    "hy": "հրատապ",
+    "hy": "շտապ",
     "translations": [
       {
         "en": "urgent",
         "frequency": -11.1209
-      }
-    ]
-  },
-  {
-    "hy": "իրատեսական",
-    "translations": [
-      {
-        "en": "realistic",
-        "frequency": -11.1414
-      }
-    ]
-  },
-  {
-    "hy": "բաղադրատոմսը",
-    "translations": [
-      {
-        "en": "recipe",
-        "frequency": -11.1414
-      }
-    ]
-  },
-  {
-    "hy": "ավազոտ",
-    "translations": [
-      {
-        "en": "sandy",
-        "frequency": -11.1414
-      }
-    ]
-  },
-  {
-    "hy": "արդիականացնել",
-    "translations": [
-      {
-        "en": "upgrade",
-        "frequency": -11.1414
-      }
-    ]
-  },
-  {
-    "hy": "վինսենթ",
-    "translations": [
-      {
-        "en": "vincent",
-        "frequency": -11.1414
-      }
-    ]
-  },
-  {
-    "hy": "խախտում",
-    "translations": [
-      {
-        "en": "violation",
-        "frequency": -11.1414
-      },
-      {
-        "en": "breach",
-        "frequency": -11.2353
-      }
-    ]
-  },
-  {
-    "hy": "ուորեն",
-    "translations": [
-      {
-        "en": "warren",
-        "frequency": -11.1414
       }
     ]
   },
@@ -29184,6 +29114,136 @@
     ]
   },
   {
+    "hy": "իրատեսական",
+    "translations": [
+      {
+        "en": "realistic",
+        "frequency": -11.1414
+      }
+    ]
+  },
+  {
+    "hy": "բաղադրատոմսը",
+    "translations": [
+      {
+        "en": "recipe",
+        "frequency": -11.1414
+      }
+    ]
+  },
+  {
+    "hy": "ավազոտ",
+    "translations": [
+      {
+        "en": "sandy",
+        "frequency": -11.1414
+      }
+    ]
+  },
+  {
+    "hy": "արդիականացնել",
+    "translations": [
+      {
+        "en": "upgrade",
+        "frequency": -11.1414
+      }
+    ]
+  },
+  {
+    "hy": "վինսենթ",
+    "translations": [
+      {
+        "en": "vincent",
+        "frequency": -11.1414
+      }
+    ]
+  },
+  {
+    "hy": "խախտում",
+    "translations": [
+      {
+        "en": "violation",
+        "frequency": -11.1414
+      },
+      {
+        "en": "breach",
+        "frequency": -11.2353
+      }
+    ]
+  },
+  {
+    "hy": "ուորեն",
+    "translations": [
+      {
+        "en": "warren",
+        "frequency": -11.1414
+      }
+    ]
+  },
+  {
+    "hy": "օճառ",
+    "translations": [
+      {
+        "en": "soap",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
+    "hy": "ցց",
+    "translations": [
+      {
+        "en": "stake",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
+    "hy": "սթենլի",
+    "translations": [
+      {
+        "en": "stanley",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
+    "hy": "հանձնվել",
+    "translations": [
+      {
+        "en": "surrender",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
+    "hy": "թիլ",
+    "translations": [
+      {
+        "en": "til",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
+    "hy": "ուլտրա",
+    "translations": [
+      {
+        "en": "ultra",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
+    "hy": "բուսական",
+    "translations": [
+      {
+        "en": "vegetable",
+        "frequency": -11.1693
+      }
+    ]
+  },
+  {
     "hy": "անանուն",
     "translations": [
       {
@@ -29487,69 +29547,6 @@
     "translations": [
       {
         "en": "sink",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "օճառ",
-    "translations": [
-      {
-        "en": "soap",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "ցց",
-    "translations": [
-      {
-        "en": "stake",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "սթենլի",
-    "translations": [
-      {
-        "en": "stanley",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "հանձնվել",
-    "translations": [
-      {
-        "en": "surrender",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "թիլ",
-    "translations": [
-      {
-        "en": "til",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "ուլտրա",
-    "translations": [
-      {
-        "en": "ultra",
-        "frequency": -11.1693
-      }
-    ]
-  },
-  {
-    "hy": "բուսական",
-    "translations": [
-      {
-        "en": "vegetable",
         "frequency": -11.1693
       }
     ]
@@ -30802,7 +30799,7 @@
     ]
   },
   {
-    "hy": "նահանջ",
+    "hy": "նահանջել",
     "translations": [
       {
         "en": "retreat",
@@ -30829,7 +30826,7 @@
     ]
   },
   {
-    "hy": "քրտինքը",
+    "hy": "քրտինք",
     "translations": [
       {
         "en": "sweat",
@@ -31834,6 +31831,15 @@
     ]
   },
   {
+    "hy": "տաճար",
+    "translations": [
+      {
+        "en": "cathedral",
+        "frequency": -11.3059
+      }
+    ]
+  },
+  {
     "hy": "դադարեցնել",
     "translations": [
       {
@@ -32726,7 +32732,7 @@
     ]
   },
   {
-    "hy": "վճարովի",
+    "hy": "տուրք",
     "translations": [
       {
         "en": "toll",
@@ -33328,6 +33334,15 @@
     "translations": [
       {
         "en": "magnitude",
+        "frequency": -11.3732
+      }
+    ]
+  },
+  {
+    "hy": "մարկ",
+    "translations": [
+      {
+        "en": "marc",
         "frequency": -11.3732
       }
     ]
@@ -33944,7 +33959,7 @@
     ]
   },
   {
-    "hy": "քնքուշ",
+    "hy": "մրցութային",
     "translations": [
       {
         "en": "tender",
@@ -34788,6 +34803,15 @@
     "translations": [
       {
         "en": "seemingly",
+        "frequency": -11.4453
+      }
+    ]
+  },
+  {
+    "hy": "խայտառակ",
+    "translations": [
+      {
+        "en": "shitty",
         "frequency": -11.4453
       }
     ]
@@ -35979,7 +36003,7 @@
     ]
   },
   {
-    "hy": "շրջանաձեւ",
+    "hy": "շրջանաձև",
     "translations": [
       {
         "en": "circular",
@@ -36222,7 +36246,7 @@
     ]
   },
   {
-    "hy": "ափսոս",
+    "hy": "խղճահարություն",
     "translations": [
       {
         "en": "pity",
@@ -36375,7 +36399,7 @@
     ]
   },
   {
-    "hy": "առնոլդը",
+    "hy": "առնոլդ",
     "translations": [
       {
         "en": "arnold",
@@ -36486,6 +36510,46 @@
     "translations": [
       {
         "en": "deaf",
+        "frequency": -11.5362
+      }
+    ]
+  },
+  {
+    "hy": "թափանցիկ",
+    "translations": [
+      {
+        "en": "transparent",
+        "frequency": -11.5362
+      },
+      {
+        "en": "sheer",
+        "frequency": -11.605
+      }
+    ]
+  },
+  {
+    "hy": "ձեռնարկել",
+    "translations": [
+      {
+        "en": "undertake",
+        "frequency": -11.5362
+      }
+    ]
+  },
+  {
+    "hy": "դաստակ",
+    "translations": [
+      {
+        "en": "wrist",
+        "frequency": -11.5362
+      }
+    ]
+  },
+  {
+    "hy": "գրելը",
+    "translations": [
+      {
+        "en": "writing",
         "frequency": -11.5362
       }
     ]
@@ -36792,46 +36856,6 @@
     "translations": [
       {
         "en": "taxation",
-        "frequency": -11.5362
-      }
-    ]
-  },
-  {
-    "hy": "թափանցիկ",
-    "translations": [
-      {
-        "en": "transparent",
-        "frequency": -11.5362
-      },
-      {
-        "en": "sheer",
-        "frequency": -11.605
-      }
-    ]
-  },
-  {
-    "hy": "ձեռնարկել",
-    "translations": [
-      {
-        "en": "undertake",
-        "frequency": -11.5362
-      }
-    ]
-  },
-  {
-    "hy": "դաստակ",
-    "translations": [
-      {
-        "en": "wrist",
-        "frequency": -11.5362
-      }
-    ]
-  },
-  {
-    "hy": "գրելը",
-    "translations": [
-      {
-        "en": "writing",
         "frequency": -11.5362
       }
     ]
@@ -37336,7 +37360,7 @@
     ]
   },
   {
-    "hy": "բոլորովին",
+    "hy": "միանգամայն",
     "translations": [
       {
         "en": "utterly",
@@ -37462,7 +37486,7 @@
     ]
   },
   {
-    "hy": "ճամբարային",
+    "hy": "արշավ",
     "translations": [
       {
         "en": "camping",
@@ -37763,6 +37787,15 @@
     "translations": [
       {
         "en": "martha",
+        "frequency": -11.5823
+      }
+    ]
+  },
+  {
+    "hy": "միջինը",
+    "translations": [
+      {
+        "en": "median",
         "frequency": -11.5823
       }
     ]
@@ -39062,6 +39095,15 @@
     ]
   },
   {
+    "hy": "լարը",
+    "translations": [
+      {
+        "en": "cord",
+        "frequency": -11.651
+      }
+    ]
+  },
+  {
     "hy": "գլան",
     "translations": [
       {
@@ -39368,7 +39410,7 @@
     ]
   },
   {
-    "hy": "շփում",
+    "hy": "քսել",
     "translations": [
       {
         "en": "rub",

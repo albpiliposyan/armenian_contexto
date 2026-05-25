@@ -12,7 +12,7 @@
     "pos": "ADJ"
   },
   {
-    "hy": "մարդիկ",
+    "hy": "մարդկանց",
     "en": "people",
     "frequency": -6.3771,
     "pos": "NOUN"
@@ -318,12 +318,6 @@
     "pos": "ADJ"
   },
   {
-    "hy": "մարդ",
-    "en": "person",
-    "frequency": -7.9211,
-    "pos": "NOUN"
-  },
-  {
     "hy": "փոփոխություն",
     "en": "change",
     "frequency": -7.9434,
@@ -540,12 +534,6 @@
     "pos": "ADJ"
   },
   {
-    "hy": "տարածք",
-    "en": "area",
-    "frequency": -8.1285,
-    "pos": "NOUN"
-  },
-  {
     "hy": "կարևոր",
     "en": "important",
     "frequency": -8.1285,
@@ -556,6 +544,12 @@
     "en": "run",
     "frequency": -8.1285,
     "pos": "VERB"
+  },
+  {
+    "hy": "տարածք",
+    "en": "area",
+    "frequency": -8.1285,
+    "pos": "NOUN"
   },
   {
     "hy": "միջազգային",
@@ -788,6 +782,12 @@
   {
     "hy": "հույս",
     "en": "hope",
+    "frequency": -8.2901,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "մարդ",
+    "en": "human",
     "frequency": -8.2901,
     "pos": "NOUN"
   },
@@ -1392,18 +1392,6 @@
     "pos": "PROPN"
   },
   {
-    "hy": "բերել",
-    "en": "bring",
-    "frequency": -8.6115,
-    "pos": "VERB"
-  },
-  {
-    "hy": "պարզ",
-    "en": "clear",
-    "frequency": -8.6115,
-    "pos": "ADV"
-  },
-  {
     "hy": "ֆրանսերեն",
     "en": "french",
     "frequency": -8.6115,
@@ -1432,6 +1420,18 @@
     "en": "position",
     "frequency": -8.6115,
     "pos": "NOUN"
+  },
+  {
+    "hy": "բերել",
+    "en": "bring",
+    "frequency": -8.6115,
+    "pos": "VERB"
+  },
+  {
+    "hy": "պարզ",
+    "en": "clear",
+    "frequency": -8.6115,
+    "pos": "ADV"
   },
   {
     "hy": "հասանելի",
@@ -1650,7 +1650,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "միսս",
+    "hy": "կարոտ",
     "en": "miss",
     "frequency": -8.7035,
     "pos": "VERB"
@@ -2832,6 +2832,12 @@
     "pos": "PROPN"
   },
   {
+    "hy": "նշան",
+    "en": "sign",
+    "frequency": -9.0706,
+    "pos": "NOUN"
+  },
+  {
     "hy": "անձնակազմը",
     "en": "staff",
     "frequency": -9.0706,
@@ -2988,24 +2994,6 @@
     "pos": "VERB"
   },
   {
-    "hy": "պարոն",
-    "en": "sir",
-    "frequency": -9.115,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "կոնկրետ",
-    "en": "specific",
-    "frequency": -9.115,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "բանվոր",
-    "en": "worker",
-    "frequency": -9.115,
-    "pos": "NOUN"
-  },
-  {
     "hy": "խենթ",
     "en": "crazy",
     "frequency": -9.115,
@@ -3044,6 +3032,24 @@
   {
     "hy": "թուղթ",
     "en": "paper",
+    "frequency": -9.115,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "պարոն",
+    "en": "sir",
+    "frequency": -9.115,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "կոնկրետ",
+    "en": "specific",
+    "frequency": -9.115,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "բանվոր",
+    "en": "worker",
     "frequency": -9.115,
     "pos": "NOUN"
   },
@@ -3118,12 +3124,6 @@
     "en": "island",
     "frequency": -9.1427,
     "pos": "NOUN"
-  },
-  {
-    "hy": "նշան",
-    "en": "mark",
-    "frequency": -9.1427,
-    "pos": "PROPN"
   },
   {
     "hy": "ամուսնանալ",
@@ -3216,7 +3216,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "հանրաճանաչ",
+    "hy": "հայտնի",
     "en": "popular",
     "frequency": -9.1616,
     "pos": "ADJ"
@@ -4104,7 +4104,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "հարկ",
+    "hy": "հատակ",
     "en": "floor",
     "frequency": -9.3943,
     "pos": "NOUN"
@@ -4240,12 +4240,6 @@
     "en": "parliament",
     "frequency": -9.4174,
     "pos": "NOUN"
-  },
-  {
-    "hy": "գլխավոր",
-    "en": "prime",
-    "frequency": -9.4174,
-    "pos": "PROPN"
   },
   {
     "hy": "վաճառք",
@@ -4710,12 +4704,6 @@
     "pos": "NOUN"
   },
   {
-    "hy": "հայտնի",
-    "en": "famous",
-    "frequency": -9.5101,
-    "pos": "ADJ"
-  },
-  {
     "hy": "սիրելի",
     "en": "favorite",
     "frequency": -9.5101,
@@ -4992,7 +4980,7 @@
     "pos": "PROPN"
   },
   {
-    "hy": "չաղ",
+    "hy": "ճարպ",
     "en": "fat",
     "frequency": -9.5785,
     "pos": "ADJ"
@@ -5772,7 +5760,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "հայեցակարգը",
+    "hy": "հայեցակարգ",
     "en": "concept",
     "frequency": -9.7397,
     "pos": "NOUN"
@@ -5862,7 +5850,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "ղեկավարություն",
+    "hy": "ղեկավարությունը",
     "en": "leadership",
     "frequency": -9.7397,
     "pos": "NOUN"
@@ -8808,7 +8796,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "մահմեդական",
+    "hy": "մուսուլման",
     "en": "muslim",
     "frequency": -10.1992,
     "pos": "PROPN"
@@ -8818,6 +8806,12 @@
     "en": "orange",
     "frequency": -10.1992,
     "pos": "PROPN"
+  },
+  {
+    "hy": "գլխավոր",
+    "en": "principal",
+    "frequency": -10.1992,
+    "pos": "NOUN"
   },
   {
     "hy": "տպել",
@@ -8834,12 +8828,6 @@
   {
     "hy": "թեթեւացում",
     "en": "relief",
-    "frequency": -10.1992,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "պահանջը",
-    "en": "requirement",
     "frequency": -10.1992,
     "pos": "NOUN"
   },
@@ -8976,7 +8964,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "ասպեկտ",
+    "hy": "ասպեկտը",
     "en": "aspect",
     "frequency": -10.246,
     "pos": "NOUN"
@@ -10218,10 +10206,16 @@
     "pos": "PROPN"
   },
   {
-    "hy": "տաճար",
+    "hy": "տաճարը",
     "en": "temple",
     "frequency": -10.3848,
     "pos": "PROPN"
+  },
+  {
+    "hy": "պայմանագիրը",
+    "en": "treaty",
+    "frequency": -10.3848,
+    "pos": "NOUN"
   },
   {
     "hy": "միտում",
@@ -10572,7 +10566,7 @@
     "pos": "VERB"
   },
   {
-    "hy": "գնահատում",
+    "hy": "գնահատականը",
     "en": "assessment",
     "frequency": -10.4551,
     "pos": "NOUN"
@@ -11718,7 +11712,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "լարը",
+    "hy": "լար",
     "en": "string",
     "frequency": -10.5459,
     "pos": "PROPN"
@@ -11946,7 +11940,7 @@
     "pos": "PROPN"
   },
   {
-    "hy": "ֆրանցիսկոսը",
+    "hy": "ֆրանցիս",
     "en": "francis",
     "frequency": -10.5926,
     "pos": "PROPN"
@@ -12076,72 +12070,6 @@
     "en": "vital",
     "frequency": -10.5926,
     "pos": "ADJ"
-  },
-  {
-    "hy": "գումար",
-    "en": "sum",
-    "frequency": -10.6168,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "գոյատեւումը",
-    "en": "survival",
-    "frequency": -10.6168,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "սուրը",
-    "en": "sword",
-    "frequency": -10.6168,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "հաստ",
-    "en": "thick",
-    "frequency": -10.6168,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "հետք",
-    "en": "trail",
-    "frequency": -10.6168,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "տգեղ",
-    "en": "ugly",
-    "frequency": -10.6168,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "ուկրաինա",
-    "en": "ukraine",
-    "frequency": -10.6168,
-    "pos": "VERB"
-  },
-  {
-    "hy": "վավեր",
-    "en": "valid",
-    "frequency": -10.6168,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "հատոր",
-    "en": "vol",
-    "frequency": -10.6168,
-    "pos": "VERB"
-  },
-  {
-    "hy": "լվանալ",
-    "en": "wash",
-    "frequency": -10.6168,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "մետաղալար",
-    "en": "wire",
-    "frequency": -10.6168,
-    "pos": "NOUN"
   },
   {
     "hy": "արկածային",
@@ -12290,6 +12218,72 @@
   {
     "hy": "սերմ",
     "en": "seed",
+    "frequency": -10.6168,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "գումար",
+    "en": "sum",
+    "frequency": -10.6168,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "գոյատեւումը",
+    "en": "survival",
+    "frequency": -10.6168,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "սուրը",
+    "en": "sword",
+    "frequency": -10.6168,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "հաստ",
+    "en": "thick",
+    "frequency": -10.6168,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "հետք",
+    "en": "trail",
+    "frequency": -10.6168,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "տգեղ",
+    "en": "ugly",
+    "frequency": -10.6168,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "ուկրաինա",
+    "en": "ukraine",
+    "frequency": -10.6168,
+    "pos": "VERB"
+  },
+  {
+    "hy": "վավեր",
+    "en": "valid",
+    "frequency": -10.6168,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "հատոր",
+    "en": "vol",
+    "frequency": -10.6168,
+    "pos": "VERB"
+  },
+  {
+    "hy": "լվանալ",
+    "en": "wash",
+    "frequency": -10.6168,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "մետաղալար",
+    "en": "wire",
     "frequency": -10.6168,
     "pos": "NOUN"
   },
@@ -12972,6 +12966,18 @@
     "pos": "PROPN"
   },
   {
+    "hy": "անն",
+    "en": "anne",
+    "frequency": -10.7064,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "նյարդայնացնող",
+    "en": "annoying",
+    "frequency": -10.7064,
+    "pos": "ADJ"
+  },
+  {
     "hy": "արթուր",
     "en": "arthur",
     "frequency": -10.7064,
@@ -13192,18 +13198,6 @@
     "en": "wolf",
     "frequency": -10.7064,
     "pos": "PROPN"
-  },
-  {
-    "hy": "անն",
-    "en": "anne",
-    "frequency": -10.7064,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "նյարդայնացնող",
-    "en": "annoying",
-    "frequency": -10.7064,
-    "pos": "ADJ"
   },
   {
     "hy": "ընդունելի",
@@ -13642,6 +13636,12 @@
     "en": "disappear",
     "frequency": -10.7758,
     "pos": "VERB"
+  },
+  {
+    "hy": "գնահատում",
+    "en": "evaluation",
+    "frequency": -10.7758,
+    "pos": "NOUN"
   },
   {
     "hy": "շրջանակը",
@@ -14238,54 +14238,6 @@
     "pos": "NOUN"
   },
   {
-    "hy": "կասեցնել",
-    "en": "suspend",
-    "frequency": -10.8451,
-    "pos": "VERB"
-  },
-  {
-    "hy": "զբոսաշրջիկ",
-    "en": "tourist",
-    "frequency": -10.8451,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "ծուղակ",
-    "en": "trap",
-    "frequency": -10.8451,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "միասնություն",
-    "en": "unity",
-    "frequency": -10.8451,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "կամավոր",
-    "en": "volunteer",
-    "frequency": -10.8451,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "խոցելի",
-    "en": "vulnerable",
-    "frequency": -10.8451,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "մոլախոտ",
-    "en": "weed",
-    "frequency": -10.8451,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "փայտե",
-    "en": "wooden",
-    "frequency": -10.8451,
-    "pos": "ADJ"
-  },
-  {
     "hy": "ալի",
     "en": "ali",
     "frequency": -10.8451,
@@ -14530,6 +14482,54 @@
     "en": "sec",
     "frequency": -10.8451,
     "pos": "PROPN"
+  },
+  {
+    "hy": "կասեցնել",
+    "en": "suspend",
+    "frequency": -10.8451,
+    "pos": "VERB"
+  },
+  {
+    "hy": "զբոսաշրջիկ",
+    "en": "tourist",
+    "frequency": -10.8451,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "ծուղակ",
+    "en": "trap",
+    "frequency": -10.8451,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "միասնություն",
+    "en": "unity",
+    "frequency": -10.8451,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "կամավոր",
+    "en": "volunteer",
+    "frequency": -10.8451,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "խոցելի",
+    "en": "vulnerable",
+    "frequency": -10.8451,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "մոլախոտ",
+    "en": "weed",
+    "frequency": -10.8451,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "փայտե",
+    "en": "wooden",
+    "frequency": -10.8451,
+    "pos": "ADJ"
   },
   {
     "hy": "արգենտինա",
@@ -16206,7 +16206,7 @@
     "pos": "ADJ"
   },
   {
-    "hy": "ընդունումը",
+    "hy": "ընդունում",
     "en": "acceptance",
     "frequency": -11.0305,
     "pos": "NOUN"
@@ -16302,7 +16302,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "սով",
+    "hy": "քաղց",
     "en": "hunger",
     "frequency": -11.0305,
     "pos": "NOUN"
@@ -16992,6 +16992,96 @@
     "pos": "NOUN"
   },
   {
+    "hy": "հավասարակշռված",
+    "en": "balanced",
+    "frequency": -11.1008,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "գաղութ",
+    "en": "colony",
+    "frequency": -11.1008,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "հաջորդական",
+    "en": "consecutive",
+    "frequency": -11.1008,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "դավադրություն",
+    "en": "conspiracy",
+    "frequency": -11.1008,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "հակասական",
+    "en": "controversial",
+    "frequency": -11.1008,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "դատապարտյալ",
+    "en": "convict",
+    "frequency": -11.1008,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "թխվածքաբլիթ",
+    "en": "cooky",
+    "frequency": -11.1008,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "նավարկություն",
+    "en": "cruise",
+    "frequency": -11.1008,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "դեկտ",
+    "en": "dec",
+    "frequency": -11.1008,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "դետեկտիվ",
+    "en": "detective",
+    "frequency": -11.1008,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "մշակող",
+    "en": "developer",
+    "frequency": -11.1008,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "երկրաշարժ",
+    "en": "earthquake",
+    "frequency": -11.1008,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "ութերորդ",
+    "en": "eighth",
+    "frequency": -11.1008,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "իրավասու",
+    "en": "eligible",
+    "frequency": -11.1008,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "էվանսը",
+    "en": "evans",
+    "frequency": -11.1008,
+    "pos": "PROPN"
+  },
+  {
     "hy": "ավտոտնակ",
     "en": "garage",
     "frequency": -11.1008,
@@ -17194,120 +17284,6 @@
     "en": "yield",
     "frequency": -11.1008,
     "pos": "NOUN"
-  },
-  {
-    "hy": "հավասարակշռված",
-    "en": "balanced",
-    "frequency": -11.1008,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "գաղութ",
-    "en": "colony",
-    "frequency": -11.1008,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "հաջորդական",
-    "en": "consecutive",
-    "frequency": -11.1008,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "դավադրություն",
-    "en": "conspiracy",
-    "frequency": -11.1008,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "հակասական",
-    "en": "controversial",
-    "frequency": -11.1008,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "դատապարտյալ",
-    "en": "convict",
-    "frequency": -11.1008,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "թխվածքաբլիթ",
-    "en": "cooky",
-    "frequency": -11.1008,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "նավարկություն",
-    "en": "cruise",
-    "frequency": -11.1008,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "դեկտ",
-    "en": "dec",
-    "frequency": -11.1008,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "դետեկտիվ",
-    "en": "detective",
-    "frequency": -11.1008,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "մշակող",
-    "en": "developer",
-    "frequency": -11.1008,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "երկրաշարժ",
-    "en": "earthquake",
-    "frequency": -11.1008,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "ութերորդ",
-    "en": "eighth",
-    "frequency": -11.1008,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "իրավասու",
-    "en": "eligible",
-    "frequency": -11.1008,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "էվանսը",
-    "en": "evans",
-    "frequency": -11.1008,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "ակտիվիստ",
-    "en": "activist",
-    "frequency": -11.1209,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "աճուրդ",
-    "en": "auction",
-    "frequency": -11.1209,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "արգելք",
-    "en": "barrier",
-    "frequency": -11.1209,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "պեկին",
-    "en": "beijing",
-    "frequency": -11.1209,
-    "pos": "PROPN"
   },
   {
     "hy": "առաստաղ",
@@ -17550,6 +17526,36 @@
     "pos": "ADV"
   },
   {
+    "hy": "ակտիվիստ",
+    "en": "activist",
+    "frequency": -11.1209,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "ընդունումը",
+    "en": "adoption",
+    "frequency": -11.1209,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "աճուրդ",
+    "en": "auction",
+    "frequency": -11.1209,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "արգելք",
+    "en": "barrier",
+    "frequency": -11.1209,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "պեկին",
+    "en": "beijing",
+    "frequency": -11.1209,
+    "pos": "PROPN"
+  },
+  {
     "hy": "լրտես",
     "en": "spy",
     "frequency": -11.1209,
@@ -17586,52 +17592,10 @@
     "pos": "PROPN"
   },
   {
-    "hy": "հրատապ",
+    "hy": "շտապ",
     "en": "urgent",
     "frequency": -11.1209,
     "pos": "ADJ"
-  },
-  {
-    "hy": "իրատեսական",
-    "en": "realistic",
-    "frequency": -11.1414,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "բաղադրատոմսը",
-    "en": "recipe",
-    "frequency": -11.1414,
-    "pos": "VERB"
-  },
-  {
-    "hy": "ավազոտ",
-    "en": "sandy",
-    "frequency": -11.1414,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "արդիականացնել",
-    "en": "upgrade",
-    "frequency": -11.1414,
-    "pos": "VERB"
-  },
-  {
-    "hy": "վինսենթ",
-    "en": "vincent",
-    "frequency": -11.1414,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "խախտում",
-    "en": "violation",
-    "frequency": -11.1414,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "ուորեն",
-    "en": "warren",
-    "frequency": -11.1414,
-    "pos": "PROPN"
   },
   {
     "hy": "կենսաբանություն",
@@ -17856,6 +17820,90 @@
     "pos": "NOUN"
   },
   {
+    "hy": "իրատեսական",
+    "en": "realistic",
+    "frequency": -11.1414,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "բաղադրատոմսը",
+    "en": "recipe",
+    "frequency": -11.1414,
+    "pos": "VERB"
+  },
+  {
+    "hy": "ավազոտ",
+    "en": "sandy",
+    "frequency": -11.1414,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "արդիականացնել",
+    "en": "upgrade",
+    "frequency": -11.1414,
+    "pos": "VERB"
+  },
+  {
+    "hy": "վինսենթ",
+    "en": "vincent",
+    "frequency": -11.1414,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "խախտում",
+    "en": "violation",
+    "frequency": -11.1414,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "ուորեն",
+    "en": "warren",
+    "frequency": -11.1414,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "օճառ",
+    "en": "soap",
+    "frequency": -11.1693,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "ցց",
+    "en": "stake",
+    "frequency": -11.1693,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "սթենլի",
+    "en": "stanley",
+    "frequency": -11.1693,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "հանձնվել",
+    "en": "surrender",
+    "frequency": -11.1693,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "թիլ",
+    "en": "til",
+    "frequency": -11.1693,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "ուլտրա",
+    "en": "ultra",
+    "frequency": -11.1693,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "բուսական",
+    "en": "vegetable",
+    "frequency": -11.1693,
+    "pos": "NOUN"
+  },
+  {
     "hy": "անանուն",
     "en": "anonymous",
     "frequency": -11.1693,
@@ -18044,48 +18092,6 @@
   {
     "hy": "խորտակվել",
     "en": "sink",
-    "frequency": -11.1693,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "օճառ",
-    "en": "soap",
-    "frequency": -11.1693,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "ցց",
-    "en": "stake",
-    "frequency": -11.1693,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "սթենլի",
-    "en": "stanley",
-    "frequency": -11.1693,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "հանձնվել",
-    "en": "surrender",
-    "frequency": -11.1693,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "թիլ",
-    "en": "til",
-    "frequency": -11.1693,
-    "pos": "PROPN"
-  },
-  {
-    "hy": "ուլտրա",
-    "en": "ultra",
-    "frequency": -11.1693,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "բուսական",
-    "en": "vegetable",
     "frequency": -11.1693,
     "pos": "NOUN"
   },
@@ -18900,7 +18906,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "նահանջ",
+    "hy": "նահանջել",
     "en": "retreat",
     "frequency": -11.2353,
     "pos": "NOUN"
@@ -18918,7 +18924,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "քրտինքը",
+    "hy": "քրտինք",
     "en": "sweat",
     "frequency": -11.2353,
     "pos": "NOUN"
@@ -19572,6 +19578,12 @@
     "pos": "NOUN"
   },
   {
+    "hy": "տաճար",
+    "en": "cathedral",
+    "frequency": -11.3059,
+    "pos": "PROPN"
+  },
+  {
     "hy": "դադարեցնել",
     "en": "cease",
     "frequency": -11.3059,
@@ -20148,7 +20160,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "վճարովի",
+    "hy": "տուրք",
     "en": "toll",
     "frequency": -11.3306,
     "pos": "NOUN"
@@ -20548,6 +20560,12 @@
     "en": "magnitude",
     "frequency": -11.3732,
     "pos": "NOUN"
+  },
+  {
+    "hy": "մարկ",
+    "en": "marc",
+    "frequency": -11.3732,
+    "pos": "PROPN"
   },
   {
     "hy": "միշել",
@@ -20952,7 +20970,7 @@
     "pos": "ADV"
   },
   {
-    "hy": "քնքուշ",
+    "hy": "մրցութային",
     "en": "tender",
     "frequency": -11.3996,
     "pos": "NOUN"
@@ -21508,6 +21526,12 @@
     "en": "seemingly",
     "frequency": -11.4453,
     "pos": "ADV"
+  },
+  {
+    "hy": "խայտառակ",
+    "en": "shitty",
+    "frequency": -11.4453,
+    "pos": "PROPN"
   },
   {
     "hy": "բղավել",
@@ -22290,7 +22314,7 @@
     "pos": "NOUN"
   },
   {
-    "hy": "շրջանաձեւ",
+    "hy": "շրջանաձև",
     "en": "circular",
     "frequency": -11.5129,
     "pos": "ADJ"
@@ -22452,7 +22476,7 @@
     "pos": "PROPN"
   },
   {
-    "hy": "ափսոս",
+    "hy": "խղճահարություն",
     "en": "pity",
     "frequency": -11.5129,
     "pos": "NOUN"
@@ -22554,7 +22578,7 @@
     "pos": "ADJ"
   },
   {
-    "hy": "առնոլդը",
+    "hy": "առնոլդ",
     "en": "arnold",
     "frequency": -11.5362,
     "pos": "VERB"
@@ -22624,6 +22648,30 @@
     "en": "deaf",
     "frequency": -11.5362,
     "pos": "ADJ"
+  },
+  {
+    "hy": "թափանցիկ",
+    "en": "transparent",
+    "frequency": -11.5362,
+    "pos": "ADJ"
+  },
+  {
+    "hy": "ձեռնարկել",
+    "en": "undertake",
+    "frequency": -11.5362,
+    "pos": "VERB"
+  },
+  {
+    "hy": "դաստակ",
+    "en": "wrist",
+    "frequency": -11.5362,
+    "pos": "NOUN"
+  },
+  {
+    "hy": "գրելը",
+    "en": "writing",
+    "frequency": -11.5362,
+    "pos": "VERB"
   },
   {
     "hy": "նվիրաբերել",
@@ -22828,30 +22876,6 @@
     "en": "taxation",
     "frequency": -11.5362,
     "pos": "NOUN"
-  },
-  {
-    "hy": "թափանցիկ",
-    "en": "transparent",
-    "frequency": -11.5362,
-    "pos": "ADJ"
-  },
-  {
-    "hy": "ձեռնարկել",
-    "en": "undertake",
-    "frequency": -11.5362,
-    "pos": "VERB"
-  },
-  {
-    "hy": "դաստակ",
-    "en": "wrist",
-    "frequency": -11.5362,
-    "pos": "NOUN"
-  },
-  {
-    "hy": "գրելը",
-    "en": "writing",
-    "frequency": -11.5362,
-    "pos": "VERB"
   },
   {
     "hy": "ագրեսիա",
@@ -23184,7 +23208,7 @@
     "pos": "VERB"
   },
   {
-    "hy": "բոլորովին",
+    "hy": "միանգամայն",
     "en": "utterly",
     "frequency": -11.559,
     "pos": "ADV"
@@ -23268,7 +23292,7 @@
     "pos": "PROPN"
   },
   {
-    "hy": "ճամբարային",
+    "hy": "արշավ",
     "en": "camping",
     "frequency": -11.5823,
     "pos": "NOUN"
@@ -23468,6 +23492,12 @@
   {
     "hy": "մարթա",
     "en": "martha",
+    "frequency": -11.5823,
+    "pos": "PROPN"
+  },
+  {
+    "hy": "միջինը",
+    "en": "median",
     "frequency": -11.5823,
     "pos": "PROPN"
   },
@@ -24324,6 +24354,12 @@
     "pos": "ADV"
   },
   {
+    "hy": "լարը",
+    "en": "cord",
+    "frequency": -11.651,
+    "pos": "NOUN"
+  },
+  {
     "hy": "գլան",
     "en": "cylinder",
     "frequency": -11.651,
@@ -24528,7 +24564,7 @@
     "pos": "ADJ"
   },
   {
-    "hy": "շփում",
+    "hy": "քսել",
     "en": "rub",
     "frequency": -11.651,
     "pos": "PROPN"

@@ -114,7 +114,7 @@ def print_round_header(round_number, level):
     print()
     print(f"Round {round_number}: {level['name']} ({level['description']})")
     print("Guess the hidden Armenian word.")
-    print("Commands: :hint, :closest, :skip, :quit")
+    print("Commands: :hint, :closest, :reveal, :skip, :quit")
     print()
 
 
@@ -134,8 +134,14 @@ def print_guess_history(history):
 
 
 def print_closest_words(engine, target, top_k=20):
+    target_processed = engine.process_word(target)
+    closest_words = [
+        item for item in engine.closest_words(target, top_k=top_k + 1)
+        if engine.process_word(item["word"]) != target_processed
+    ][:top_k]
+
     print(f"\nTop {top_k} closest words:")
-    for item in engine.closest_words(target, top_k=top_k):
+    for item in closest_words:
         print(f"  #{item['rank']:<2} {item['word']:<18} score {item['score']}")
     print()
 
@@ -160,6 +166,11 @@ def play_round(engine, target_item, round_number, level):
             print(f"Skipped. The word was: {target}")
             print(f"English hint was: {english_hint(target_item)}")
             return "skipped"
+
+        if guess == ":reveal":
+            print(f"Revealed. The word was: {target}")
+            print(f"English hint was: {english_hint(target_item)}")
+            return "revealed"
 
         if guess == ":hint":
             print(f"English hint: {english_hint(target_item)}")

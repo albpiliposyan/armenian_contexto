@@ -140,6 +140,32 @@ Recommended one-command workflow:
 python scripts/run_project.py
 ```
 
+Run the Gradio game GUI locally:
+
+```bash
+python app.py
+```
+
+Create a temporary public Gradio link:
+
+```bash
+python app.py --share
+```
+
+The Gradio app uses the small precomputed `.npz` and metadata files. It does
+not require `models/fasttext/cc.hy.300.bin` for normal in-vocabulary gameplay.
+
+Regenerate all derived pipeline outputs from the raw dataset and write a log:
+
+```bash
+python scripts/regenerate_pipeline.py
+```
+
+The regeneration script removes generated artifacts, rebuilds the full pipeline,
+and writes a timestamped log under `logs/`. If the Armenian FastText model is
+missing, it asks before downloading the large model. Use `--no-download` to fail
+instead of downloading, or `--yes` to accept prerequisite download prompts.
+
 Inspect top English frequency words:
 
 ```bash

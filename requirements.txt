@@ -1,6 +1,7 @@
 deep-translator
 fastapi
 fasttext-wheel
+gradio
 httpx
 numpy
 pytest

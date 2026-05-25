@@ -1,0 +1,185 @@
+Armenian Contexto pipeline regeneration
+Started: 2026-05-25T23:40:04
+Project root: /Users/albpiliposyan/Desktop/ideas/armenian_contexto
+Python: 3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.4.4.1)]
+Log file: logs/pipeline_20260525_234004.log
+
+Note: translation uses Google-based translation APIs and may be slow or unstable.
+Preflight checks:
+  found raw dataset: data/raw/wordfreq-en-25000-log.json
+  found spaCy model: en_core_web_sm
+  found FastText model: models/fasttext/cc.hy.300.bin
+
+Removing generated files:
+  already missing data/interim/cleaned_words.json
+  already missing data/interim/contexto_words.json
+  already missing data/processed/armenian_contexto_words.json
+  already missing data/processed/armenian_contexto_words_top5000.json
+  already missing data/processed/failed_translations.json
+  already missing data/processed/failed_translations_top5000.json
+  already missing data/processed/armenian_contexto_metadata.json
+  already missing data/embeddings/armenian_contexto_embeddings.npz
+  already missing data/embeddings/english_contexto_embeddings.npz
+
+Removing generated cache directories:
+  already missing .pytest_cache
+  already missing src/armenian_contexto.egg-info
+  removed src/armenian_contexto/__pycache__
+  already missing scripts/__pycache__
+  already missing tests/__pycache__
+
+==> Clean English frequency words
+Command: /Users/albpiliposyan/Desktop/ideas/armenian_contexto/venv/bin/python3 scripts/clear_words.py
+Saved 17282 cleaned words to data/interim/cleaned_words.json
+Exit code: 0
+
+==> POS-filter Contexto words
+Command: /Users/albpiliposyan/Desktop/ideas/armenian_contexto/venv/bin/python3 scripts/filter_pos_tags.py
+Saved 16383 Contexto-friendly words to data/interim/contexto_words.json
+Exit code: 0
+
+==> Translate English words to Armenian
+Command: /Users/albpiliposyan/Desktop/ideas/armenian_contexto/venv/bin/python3 scripts/translate_to_armenian.py
+
+Translating:   0%|          | 0/100 [00:00<?, ?it/s]
+Translating:   1%|          | 1/100 [00:15<26:07, 15.84s/it]
+Translating:   3%|▎         | 3/100 [00:17<07:52,  4.87s/it]
+Translating:   4%|▍         | 4/100 [00:33<14:00,  8.76s/it]
+Translating:   5%|▌         | 5/100 [00:35<09:56,  6.28s/it]
+Translating:   6%|▌         | 6/100 [00:35<06:47,  4.34s/it]
+Translating:   7%|▋         | 7/100 [00:53<13:33,  8.75s/it]
+Translating:   8%|▊         | 8/100 [00:54<09:20,  6.09s/it]
+Translating:   9%|▉         | 9/100 [00:54<06:40,  4.40s/it]
+Translating:  10%|█         | 10/100 [01:14<13:30,  9.01s/it]
+Translating:  11%|█         | 11/100 [01:14<09:27,  6.37s/it]
+Translating:  12%|█▏        | 12/100 [01:14<06:43,  4.58s/it]
+Translating:  13%|█▎        | 13/100 [01:32<12:30,  8.62s/it]
+Translating:  14%|█▍        | 14/100 [01:35<09:55,  6.92s/it]
+Translating:  16%|█▌        | 16/100 [01:53<11:00,  7.86s/it]
+Translating:  17%|█▋        | 17/100 [01:58<09:42,  7.02s/it]
+Translating:  18%|█▊        | 18/100 [01:58<07:12,  5.27s/it]
+Translating:  19%|█▉        | 19/100 [02:17<12:17,  9.11s/it]
+Translating:  20%|██        | 20/100 [02:18<09:07,  6.85s/it]
+Translating:  21%|██        | 21/100 [02:19<06:46,  5.15s/it]
+Translating:  22%|██▏       | 22/100 [02:37<11:14,  8.65s/it]
+Translating:  23%|██▎       | 23/100 [02:39<08:53,  6.93s/it]
+Translating:  24%|██▍       | 24/100 [02:44<07:55,  6.26s/it]
+Translating:  25%|██▌       | 25/100 [03:00<11:30,  9.21s/it]
+Translating:  26%|██▌       | 26/100 [03:02<08:26,  6.85s/it]
+Translating:  27%|██▋       | 27/100 [03:07<07:55,  6.51s/it]
+Translating:  28%|██▊       | 28/100 [03:20<10:04,  8.40s/it]
+Translating:  29%|██▉       | 29/100 [03:27<09:31,  8.06s/it]
+Translating:  30%|███       | 30/100 [03:30<07:26,  6.37s/it]
+Translating:  31%|███       | 31/100 [03:43<09:44,  8.47s/it]
+Translating:  32%|███▏      | 32/100 [03:50<08:53,  7.84s/it]
+Translating:  33%|███▎      | 33/100 [03:54<07:46,  6.97s/it]
+Translating:  34%|███▍      | 34/100 [04:07<09:26,  8.58s/it]
+Translating:  35%|███▌      | 35/100 [04:12<08:08,  7.51s/it]
+Translating:  36%|███▌      | 36/100 [04:18<07:34,  7.10s/it]
+Translating:  37%|███▋      | 37/100 [04:28<08:18,  7.91s/it]
+Translating:  38%|███▊      | 38/100 [04:35<08:02,  7.78s/it]
+Translating:  39%|███▉      | 39/100 [04:40<06:52,  6.77s/it]
+Translating:  40%|████      | 40/100 [04:51<08:09,  8.17s/it]
+Translating:  41%|████      | 41/100 [04:59<08:06,  8.25s/it]
+Translating:  42%|████▏     | 42/100 [05:05<07:11,  7.43s/it]
+Translating:  43%|████▎     | 43/100 [05:16<07:58,  8.39s/it]
+Translating:  44%|████▍     | 44/100 [05:23<07:36,  8.15s/it]
+Translating:  45%|████▌     | 45/100 [05:28<06:36,  7.21s/it]
+Translating:  46%|████▌     | 46/100 [05:44<08:52,  9.87s/it]
+Translating:  47%|████▋     | 47/100 [05:45<06:19,  7.17s/it]
+Translating:  48%|████▊     | 48/100 [05:53<06:21,  7.34s/it]
+Translating:  49%|████▉     | 49/100 [06:07<07:54,  9.30s/it]
+Translating:  50%|█████     | 50/100 [06:12<06:44,  8.10s/it]
+Translating:  51%|█████     | 51/100 [06:22<06:59,  8.57s/it]
+Translating:  52%|█████▏    | 52/100 [06:28<06:13,  7.79s/it]
+Translating:  53%|█████▎    | 53/100 [06:38<06:41,  8.54s/it]
+Translating:  54%|█████▍    | 54/100 [06:43<05:48,  7.57s/it]
+Translating:  55%|█████▌    | 55/100 [06:51<05:43,  7.64s/it]
+Translating:  56%|█████▌    | 56/100 [07:00<05:48,  7.91s/it]
+Translating:  57%|█████▋    | 57/100 [07:03<04:38,  6.49s/it]
+Translating:  58%|█████▊    | 58/100 [07:14<05:33,  7.95s/it]
+Translating:  59%|█████▉    | 59/100 [07:25<06:03,  8.87s/it]
+Translating:  60%|██████    | 60/100 [07:27<04:30,  6.77s/it]
+Translating:  61%|██████    | 61/100 [07:42<06:04,  9.36s/it]
+Translating:  62%|██████▏   | 62/100 [07:50<05:33,  8.76s/it]
+Translating:  63%|██████▎   | 63/100 [07:51<03:55,  6.37s/it]
+Translating:  64%|██████▍   | 64/100 [08:08<05:48,  9.69s/it]
+Translating:  65%|██████▌   | 65/100 [08:14<05:00,  8.57s/it]
+Translating:  66%|██████▌   | 66/100 [08:19<04:14,  7.47s/it]
+Translating:  67%|██████▋   | 67/100 [08:33<05:06,  9.30s/it]
+Translating:  68%|██████▊   | 68/100 [08:40<04:39,  8.74s/it]
+Translating:  69%|██████▉   | 69/100 [08:42<03:25,  6.63s/it]
+Translating:  70%|███████   | 70/100 [08:56<04:30,  9.02s/it]
+Translating:  71%|███████   | 71/100 [09:03<03:58,  8.23s/it]
+Translating:  72%|███████▏  | 72/100 [09:08<03:24,  7.31s/it]
+Translating:  73%|███████▎  | 73/100 [09:21<04:02,  8.98s/it]
+Translating:  74%|███████▍  | 74/100 [09:25<03:15,  7.54s/it]
+Translating:  75%|███████▌  | 75/100 [09:31<02:58,  7.16s/it]
+Translating:  76%|███████▌  | 76/100 [09:45<03:43,  9.31s/it]
+Translating:  77%|███████▋  | 77/100 [09:53<03:22,  8.80s/it]
+Translating:  78%|███████▊  | 78/100 [09:55<02:29,  6.79s/it]
+Translating:  79%|███████▉  | 79/100 [10:12<03:24,  9.74s/it]
+Translating:  80%|████████  | 80/100 [10:17<02:47,  8.36s/it]
+Translating:  81%|████████  | 81/100 [10:20<02:10,  6.84s/it]
+Translating:  82%|████████▏ | 82/100 [10:35<02:46,  9.23s/it]
+Translating:  83%|████████▎ | 83/100 [10:43<02:30,  8.85s/it]
+Translating:  84%|████████▍ | 84/100 [10:44<01:44,  6.52s/it]
+Translating:  85%|████████▌ | 85/100 [10:58<02:10,  8.71s/it]
+Translating:  86%|████████▌ | 86/100 [11:12<02:23, 10.27s/it]
+Translating:  87%|████████▋ | 87/100 [11:13<01:37,  7.51s/it]
+Translating:  88%|████████▊ | 88/100 [11:21<01:32,  7.74s/it]
+Translating:  89%|████████▉ | 89/100 [11:38<01:54, 10.45s/it]
+Translating:  90%|█████████ | 90/100 [11:42<01:25,  8.50s/it]
+Translating:  91%|█████████ | 91/100 [11:48<01:09,  7.74s/it]
+Translating:  92%|█████████▏| 92/100 [12:04<01:22, 10.31s/it]
+Translating:  93%|█████████▎| 93/100 [12:06<00:54,  7.76s/it]
+Translating:  94%|█████████▍| 94/100 [12:10<00:39,  6.66s/it]
+Translating:  95%|█████████▌| 95/100 [12:28<00:50, 10.05s/it]
+Translating:  96%|█████████▌| 96/100 [12:34<00:35,  8.77s/it]
+Translating:  97%|█████████▋| 97/100 [12:41<00:24,  8.18s/it]
+Translating:  98%|█████████▊| 98/100 [12:53<00:18,  9.31s/it]
+Translating: 100%|██████████| 100/100 [13:07<00:00,  8.41s/it]
+Translating: 100%|██████████| 100/100 [13:07<00:00,  7.88s/it]
+Saved 4114 unique Armenian words to data/processed/armenian_contexto_words_top5000.json
+Saved 242 failed/skipped words to data/processed/failed_translations_top5000.json
+Exit code: 0
+
+==> Build Armenian embeddings
+Command: /Users/albpiliposyan/Desktop/ideas/armenian_contexto/venv/bin/python3 scripts/build_embeddings.py
+Loading FastText model...
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Saved 4114 words to data/embeddings/armenian_contexto_embeddings.npz
+Embedding matrix shape: (4114, 300)
+Exit code: 0
+
+==> Build metadata and English vectors
+Command: /Users/albpiliposyan/Desktop/ideas/armenian_contexto/venv/bin/python3 scripts/build_metadata.py
+Saved 4114 metadata rows to data/processed/armenian_contexto_metadata.json
+Saved English vectors to data/embeddings/english_contexto_embeddings.npz
+Exit code: 0
+
+==> Run pytest
+Command: /Users/albpiliposyan/Desktop/ideas/armenian_contexto/venv/bin/python3 -m pytest tests
+============================= test session starts ==============================
+platform darwin -- Python 3.14.2, pytest-9.0.3, pluggy-1.6.0
+rootdir: /Users/albpiliposyan/Desktop/ideas/armenian_contexto
+configfile: pyproject.toml
+plugins: anyio-4.13.0
+collected 10 items
+
+tests/test_api.py ....                                                   [ 40%]
+tests/test_hybrid_similarity.py ......                                   [100%]
+
+============================== 10 passed in 0.55s ==============================
+Exit code: 0
+
+Generated file report:
+  data/interim/cleaned_words.json - 993777 bytes
+  data/interim/contexto_words.json - 945211 bytes
+  data/processed/armenian_contexto_words_top5000.json - 607518 bytes
+  data/processed/failed_translations_top5000.json - 32528 bytes
+  data/processed/armenian_contexto_metadata.json - 425908 bytes
+  data/embeddings/armenian_contexto_embeddings.npz - 4608786 bytes
+  data/embeddings/english_contexto_embeddings.npz - 1498109 bytes
+
+Finished: 2026-05-25T23:54:34
