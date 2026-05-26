@@ -7,18 +7,16 @@ The game does not compare letters. It combines Armenian embedding similarity,
 English translation similarity, and POS tags to return semantic ranks for
 guesses.
 
-Note: this project was generated with AI assistance and human supervision.
-
 Example:
 
 ```text
 Target word: դպրոց
 
+դպրոցը    -> WIN
 ուսուցիչ  -> Rank #12
 աշակերտ  -> Rank #18
 գիրք      -> Rank #145
 մեքենա    -> Rank #4200
-դպրոցը    -> WIN
 ```
 
 ## Project Layout
